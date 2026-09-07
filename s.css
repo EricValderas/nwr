@@ -158,60 +158,15 @@ p {
   
 }
 
-#worldImage1{
+#worldImage1,#worldImage2,#worldImage3,#worldImage4,#worldImage5,#worldImage6,
+#worldImage7,#worldImage8,#worldImage9,#punkImage1,#punkImage2,#punkImage3,
+#punkImage4,#punkImage5,#punkImage6{
   height: 300px;
   width: auto;
   border: solid 3px #000 ;
   
 }
-#worldImage2{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage3{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage4{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage5{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage6{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage7{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage8{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
-#worldImage9{
-  height: 300px;
-  width: auto;
-  border: solid 3px #000 ;
-  
-}
+
 
 #imgtopDiscos{
   height: 400px;
