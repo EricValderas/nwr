@@ -13,6 +13,11 @@ document.getElementById("worldImage9").onclick = function() {window.open("https:
 document.getElementById("punkImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
 document.getElementById("punkImage2").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
 document.getElementById("punkImage3").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
+document.getElementById("punkImage4").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
+document.getElementById("punkImage5").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
+document.getElementById("punkImage6").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
+document.getElementById("punkImage7").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
+document.getElementById("punkImage8").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html");  }; 
 
 const audioElement = document.querySelector("audio");
 var song = document.getElementById("myAudio");

@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*2);
+          randomScript = Math.floor(Math.random()*3);
 
           
           if(randomScript==0)
@@ -105,25 +105,24 @@ function functionNext(){
                    
                   }
      
-            if(randomScript==2)
-          {
-            arrayTitle=chambacu;
-            randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
+           if(randomScript==2)
+                   {
+                       randomNumber = Math.floor(Math.random()*zorrasAsignaturas[0].length);
+                       navigator.mediaSession.metadata = new MediaMetadata({
+                       title: zorrasAsignaturas[0][randomNumber],
+                       artist: "Nervous Wreck Radio - Punk",
+                       album: "",
+                       artwork: [{ src: zorrasAsignaturas[2][randomNumber] }],
+                       });
            
-            navigator.mediaSession.metadata = new MediaMetadata({
-            title: arrayTitle[0][randomNumber],
-            artist: "Nervous Wreck Radio - Blues",
-            album: "",
-            artwork: [{  src: arrayTitle[2][randomNumber] }],  
-          });
-  
-            audioElement.src= arrayTitle[1][randomNumber];
-            audioElement.play();
-            document.title = arrayTitle[0][randomNumber];
-            priceDesc.innerHTML = arrayTitle[0][randomNumber];
-            Portada.src =  arrayTitle[2][randomNumber];
-  
-          }
+                    
+                     audioElement.src= zorrasAsignaturas[1][randomNumber];
+                     audioElement.play();
+                     document.title = zorrasAsignaturas[0][randomNumber];
+                     priceDesc.innerHTML = zorrasAsignaturas[0][randomNumber];
+                     Portada.src = zorrasAsignaturas[2][randomNumber];
+           
+                   }
 
            if(randomScript==3)
                   {
@@ -454,48 +453,67 @@ function functionNext(){
     ]
     ];
 
-      const dancingDevilsDjibuti= [
+      const zorrasAsignaturas = [
         [
-         "Alto's Interlude - Groupe RTD",
-         "Asma Omar - Buuraha U Dheer",
-         "Asma Omar - Raga Kaan Ka'Eegtow",
-         "Danse Tradiotionnelle - Wiil Wille",
-        "Guessod Abdo Hamargod - Kuusha Caarey",
-        "Guessod Abdo Hamargod- liso Daymo",
-        "Hasan Omar Housein - Uurkan Kaadonaya",
-        "Hassan Omar Housein - Halkaasad Dhigi Magtiisa",
-        "Hassan Omar Housein - Raani",
-        "Hassan Omar Housein - Suuban",
+        "8 de agosto de 1969 - Zorras Adolescentes",
+        "Autopista hacia el cielo - Zorras Adolescentes",
+        "El flechazo - Zorras Adolescentes",
+        "Fosa comun - Zorras Adolescentes",
+        "G.G. Allin - Zorras Adolescentes",
+        "Killer man (Gasoline Cover) - Zorras Adolescentes",
+        "La habitacion - Zorras Adolescentes",
+        "Lluvia de locura - Zorras Adolescentes",
+        "Maxwell Smart - Zorras Adolescentes",
+        "Mundo mutante - Zorras Adolescentes",
+
+        "Putos Viejos - Zorras Adolescentes",
+        "Putridos cuerpos - Zorras Adolescentes",
+        "Relación Radioactiva - Zorras Adolescentes",
+        "Sade love - Zorras Adolescentes",
+        "Todo por amor - Zorras Adolescentes",
+        "Un dia de furia - Zorras Adolescentes",
         ],[
-       
-    "https://www.dropbox.com/scl/fi/tw2guz48g56pq005bgsmn/Alto-s-Interlude.mp3?rlkey=so55ar5yht51m5mw8vqycuhoq&st=ya9ymbnd&dl=1",
-    "https://www.dropbox.com/scl/fi/zlqfdxwsqk6gess55z0yg/Asma-Omar-Buuraha-U-Dheer.mp3?rlkey=hcrv3j94vv6qz5a2rgi4hw1pz&st=ie9cacke&dl=1",
-    "https://www.dropbox.com/scl/fi/hotgdrx33wen6sr8gcikb/Asma-Omar-Raga-Kaan-Ka-Eegtow.mp3?rlkey=oudpbfb1pbz1vbtngfxwlwhk9&st=oqyvu408&dl=1",
-    "https://www.dropbox.com/scl/fi/58h1vs6vedqjksr2sb7xa/Danse-Tradiotionnelle-Wiil-Wille.mp3?rlkey=x94w485lsugbztkmef7fpdgco&st=8zrp6g6u&dl=1",
-    "https://www.dropbox.com/scl/fi/mbgc29ixx5av273rj0jhy/Guessod-Abdo-Hamargod-Kuusha-Caarey.mp3?rlkey=kqesch7k9dxt3bma0warn43ey&st=xd5s6t6o&dl=1",
-    "https://www.dropbox.com/scl/fi/9mdqt8g24rzg8c0fixvky/Guessod-Abdo-Hamargod-liso-Daymo.mp3?rlkey=z03oev378u5j9fz44mjpysyx6&st=vlcd6jpm&dl=1",
-    "https://www.dropbox.com/scl/fi/6csp7in8lgcl3nwx6yhrw/Hasan-Omar-Housein-Uurkan-Kaadonaya.mp3?rlkey=90rlvcq2e8fqj38sjosn6i4tv&st=o71jb965&dl=1",
-    "https://www.dropbox.com/scl/fi/u0e57gh11z178pie75k82/Hassan-Omar-Housein-Halkaasad-Dhigi-Magtiisa.mp3?rlkey=ovgdsqru1nu0n1o63veisfqta&st=fpiceafp&dl=1",
-    "https://www.dropbox.com/scl/fi/2twyg0si5emqc0v0ldvu9/Hassan-Omar-Housein-Raani.mp3?rlkey=chqfyo3tvshqhojk9qo5yc2kh&st=dbs403tq&dl=1",
-    "https://www.dropbox.com/scl/fi/3bdqmy3ev4mptwys18mjc/Hassan-Omar-Housein-Suuban.mp3?rlkey=p94zjgw386rlc3bwj3ek0pjfr&st=0o06fah1&dl=1",
-         
+          "https://www.dropbox.com/scl/fi/worz2c2xmjjwiqrxb06aq/01-Bazofia-Records.-ZORRAS-ADOLESCENTES-8-de-agosto-de-1969..mp3?rlkey=igee17qqud5cvylw8o30dg7l3&st=ovpmy3rn&dl=1",
+          "https://www.dropbox.com/scl/fi/p183dgkbb5gdqv7qkvxbo/14-Bazofia-Records.-ZORRAS-ADOLESCENTES-Autopista-hacia-el-cielo..mp3?rlkey=xskrn8bxtofbtdwoojwa64jnp&st=dkxny8w4&dl=1",
+          "https://www.dropbox.com/scl/fi/xfegna6t3a75odp97npsz/04-Bazofia-Records.-ZORRAS-ADOLESCENTES-El-flechazo..mp3?rlkey=oocbc7ajek7v5zzdy300wfhni&st=wmnycw17&dl=1",
+          "https://www.dropbox.com/scl/fi/q94l01brojsmxotglsbu0/15-Bazofia-Records.-ZORRAS-ADOLESCENTES-Fosa-com-n..mp3?rlkey=1vym9tj703skxqbd69spqg9qp&st=u85ucn0j&dl=1",
+          "https://www.dropbox.com/scl/fi/oijuq0w0qwvarcnq71io6/06-Bazofia-Records.-ZORRAS-ADOLESCENTES-G.G-Allin..mp3?rlkey=slqptlnrkriiriq9g2gglk1xe&st=83pt3shv&dl=1",
+          "https://www.dropbox.com/scl/fi/5dy1yg8tz1syhl1any6bp/09-Bazofia-Records.-ZORRAS-ADOLESCENTES-Killer-man.-Gasoline-cover-..mp3?rlkey=gxnxvntbu6jlf92ppsp29n378&st=divn5hxk&dl=1",
+          "https://www.dropbox.com/scl/fi/w9yrbrcip1x7ob730fv1c/10-Bazofia-Records.-ZORRAS-ADOLESCENTES-La-habitaci-n..mp3?rlkey=e29cizkc9lnudqsr0xa9r8qpe&st=2moss95w&dl=1",
+          "https://www.dropbox.com/scl/fi/pxovnt11zs6hsqbgx1ezs/13-Bazofia-Records.-ZORRAS-ADOLESCENTES-Lluvia-de-locura..mp3?rlkey=o39tx2q35cwiljust9zott2mz&st=kb8nf2dj&dl=1",
+          "https://www.dropbox.com/scl/fi/y2yls1t0drovcgc1ptj81/16-Bazofia-Records.-ZORRAS-ADOLESCENTES-Maxwell-Smart..mp3?rlkey=euqiiz9s07u1o1mytjayitemx&st=0answ89q&dl=1",
+          "https://www.dropbox.com/scl/fi/ebct7sftghfq1xkn5pabg/12-Bazofia-Records.-ZORRAS-ADOLESCENTES-Mundo-mutante..mp3?rlkey=cix2jqkhuf2mrgbh925dgiq0q&st=2s6c15sw&dl=1",
+
+          "https://www.dropbox.com/scl/fi/x9jx09d6y2fto66mpk3wt/08-Bazofia-Records.-ZORRAS-ADOLESCENTES-Putos-viejos..mp3?rlkey=egfevn7jzagr5vu0sls43i7l5&st=hf6f5i8h&dl=1",
+          "https://www.dropbox.com/scl/fi/gs7zm3j6kcam0y2ctf4nm/11-Bazofia-Records.-ZORRAS-ADOLESCENTES-Putridos-cuerpos..mp3?rlkey=t5pnfkgymmbqlrmvnqohep3gn&st=r6gf50h4&dl=1",
+          "https://www.dropbox.com/scl/fi/cqkiyutin9lbj61ctwlhd/02-Bazofia-Records.-ZORRAS-ADOLESCENTES-Relaci-n-radioactiva..mp3?rlkey=u83yj74ns3o3a998q6b4utojk&st=91bsv80m&dl=1",
+          "https://www.dropbox.com/scl/fi/nlu8ruxhofh9854j5tx7p/05-Bazofia-Records.-ZORRAS-ADOLESCENTES-Sade-love..mp3?rlkey=9am1n3n424domshn9gnu6i24b&st=qii5mlcf&dl=1",
+          "https://www.dropbox.com/scl/fi/qpg0lizvg8su5gptpoo1a/03-Bazofia-Records.-ZORRAS-ADOLESCENTES-Todo-por-amor..mp3?rlkey=yyh3n1tu7jha8hfuzeyvu8gdm&st=0oaqjrkm&dl=1",
+          "https://www.dropbox.com/scl/fi/wv465q7o95wmw3k3bkgvg/07-Bazofia-Records.-ZORRAS-ADOLESCENTES-Un-d-a-de-furia..mp3?rlkey=l85fs3k2oqjgnnyfknha491o4&st=xu564gz8&dl=1",
       ] 
       ,[
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
 
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
-        "https://www.dropbox.com/scl/fi/udt1hej9tzkkemik2h446/dancingdevils.jpeg?rlkey=bnmf0rbaqlivhjgz4wqr9ys5x&st=tfwn0uya&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
+        "https://www.dropbox.com/scl/fi/ey46bxs2bx9zmyquyrcb4/zorrasAsignaturas.jpg?rlkey=5bdgj4pj7xvhc6jvqp0hqlpf8&st=uywh4b8a&dl=1",
        
         
       ] 
       ];
+
 
       const jambuAmazonia = [
         [
