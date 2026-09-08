@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*1);
+          randomScript = Math.floor(Math.random()*2);
 
           
           if(randomScript==0)
@@ -84,32 +84,26 @@ function functionNext(){
                     
           
                   }
-
-      
-                  
-          if(randomScript==1)
-                   {
-                     randomNumber = Math.floor(Math.random()*dancingDevilsDjibuti[0].length);
+          
+                   if(randomScript==1)
+                  {
+                     randomNumber = Math.floor(Math.random()*CriseCardiaque[0].length);
                      navigator.mediaSession.metadata = new MediaMetadata({
-                     title: dancingDevilsDjibuti[0][randomNumber],
-                     artist: "Nervous Wreck Radio - Word",
-                     album: "",
-                     artwork: [{ src: dancingDevilsDjibuti[2][randomNumber] }],
-                     
-                   });
-           
-                     
-                     audioElement.src= dancingDevilsDjibuti[1][randomNumber];
-                     audioElement.play();
-                     document.title = dancingDevilsDjibuti[0][randomNumber];
-                     priceDesc.innerHTML = dancingDevilsDjibuti[0][randomNumber];
-                     Portada.src = dancingDevilsDjibuti[2][randomNumber];
-                    // nota.innerHTML = "9 / 10";
-                     
-           
+                      title: CriseCardiaque[0][randomNumber],
+                      artist: "Nervous Wreck Radio - Punk",
+                      album: "",
+                      artwork: [{ src: CriseCardiaque[2][randomNumber] }],
+                      });
+          
+                    
+                    audioElement.src= CriseCardiaque[1][randomNumber];
+                    audioElement.play();
+                    document.title = CriseCardiaque[0][randomNumber];
+                    priceDesc.innerHTML = CriseCardiaque[0][randomNumber];
+                    Portada.src = CriseCardiaque[2][randomNumber];
+          
                    
-           
-          }
+                  }
      
             if(randomScript==2)
           {
@@ -421,113 +415,44 @@ function functionNext(){
       ]
 
 
-      const worldHour = [
-
-        [
-
-          "Kushimoto Bushi (Cumbia) -  Minyo Crusaders",
-          "Hohai Bushi (Afro) -  Minyo Crusaders",
-          "Otemoyan (Reggae) -  Minyo Crusaders",
-          "Mamurogawa Ondo (Beguine) -  Minyo Crusaders",
-          "Yasugi Bushi (Bolero) -  Minyo Crusaders",
-          "Akita Nikata Bushi (Ethiopian Groove) -  Minyo Crusaders",
-          "Toichin Bushi (Afro·funk) -  Minyo Crusaders",
-          "Tanko Bushi (Boogaloo) -  Minyo Crusaders",
-          "Aizu Bandaisan (Latin) -  Minyo Crusaders",
-          "Sumo Jinku (A capella) -  Minyo Crusaders",
-
-          "Atochita - Ruca y El Quinde de Barbacoas",
-          "El Iragüilde - Ruca y El Quinde de Barbacoas",
-          "Indirita - Ruca y El Quinde de Barbacoas",
-          "La Muluta - Ruca y El Quinde de Barbacoas",
-          "Me Piden Currulao - Ruca y El Quinde de Barbacoas",
-          "Dale Duro al Bombo - Ruca y El Quinde de Barbacoas",
-          "La Brinca Brinca - Ruca y El Quinde de Barbacoas",
-          "El Clavito de Pablito - Ruca y El Quinde de Barbacoas",
-          "Rumba pa' Gozá - Ruca y El Quinde de Barbacoas",
-          "Paz Verdadera - Ruca y El Quinde de Barbacoas",
-          "A Ritmo de Caramba - Ruca y El Quinde de Barbacoas",
-          "El Agua Turbia - Ruca y El Quinde de Barbacoas",
-          "Alaé Alaá - Ruca y El Quinde de Barbacoas",
-          "África Negra - Ruca y El Quinde de Barbacoas",
-
-          "Un destello diferente - Lucas y Marypaz",
-          "Y la mañana nace - Lucas y Marypaz",
-          "Estos hilos que yo enhebro - Lucas y Marypaz",
-          "Pie que danza - Lucas y Marypaz",
+      const CriseCardiaque = [
+    [
+        "Verglas - Durs Cœurs",
+        "Tempête - Durs Cœurs",
+         "L'Heure Sonnera - Durs Cœurs",
+         "Électricité - Durs Cœurs",
+         "L'Épée de Damoclès - Durs Cœurs",
+         "Malajusté - Durs Cœurs",
+         "Forces de L'Ordre - Durs Cœurs",
+         "Calvaire - Durs Cœurs",
        
-        ],
-        [
+
        
-           // Mynyo Crusaders - Echoes
+    ],
+    [
+        "https://www.dropbox.com/scl/fi/z7a37f4pdj1fa6l6jhd2f/01-Durs-C-urs-Verglas.mp3?rlkey=xahxw88ylg7lswsl2httobvp7&st=a01qepk1&dl=1",
+        "https://www.dropbox.com/scl/fi/jp9fwekcmjvxmc7my82v2/02-Durs-C-urs-Temp-te.mp3?rlkey=l3hfrqndbpeiwfszoq7xxb4vg&st=wgm4jnc3&dl=1",
+        "https://www.dropbox.com/scl/fi/2wetqhnlvpvgc1o5r504n/03-Durs-C-urs-L-Heure-Sonnera.mp3?rlkey=43z4qci84i3hvm7zcqtmyv946&st=foxfdpwy&dl=1",
+        "https://www.dropbox.com/scl/fi/pqfol3meulfsrzaxqszej/04-Durs-C-urs-lectricit.mp3?rlkey=b7fbx9t3h6nz5netai05759ch&st=jdwpucin&dl=1",
+        "https://www.dropbox.com/scl/fi/wy783n0p60cg2op9f9vef/05-Durs-C-urs-L-p-e-de-Damocl-s.mp3?rlkey=tys3v52gqbl0375xs1qn5i5hy&st=asmj7eux&dl=1",
+        "https://www.dropbox.com/scl/fi/f3fmpy4oazmbb3worg4fs/06-Durs-C-urs-Malajust.mp3?rlkey=67hooonfktldjb5p562yh121d&st=xupyqct3&dl=1",
+        "https://www.dropbox.com/scl/fi/yjyjuhi8wc4pry7kh4j79/07-Durs-C-urs-Forces-de-L-Ordre.mp3?rlkey=bw560mu75hzw6mnbh77ful9wj&st=k96u4sgi&dl=1",
+        "https://www.dropbox.com/scl/fi/ofh0j88rfda744bh4mfhg/08-Durs-C-urs-Calvaire.mp3?rlkey=te2eig02nnrzxba1ejlzhff82&st=niqfzfvz&dl=1",
+        
 
-        "https://www.dropbox.com/scl/fi/x34ifg0uf1sms2ltf9pew/01-minyo-crusaders-Kushimoto-Bushi-Cumbia.mp3?rlkey=zykei7eydsf99wttem0p0u8p7&st=dkmamsx0&dl=1",
-        "https://www.dropbox.com/scl/fi/8ftm1h024zbmeoz12uchy/02-minyo-crusaders-Hohai-Bushi-Afro.mp3?rlkey=njbsefxogely3ozvydblryoe0&st=nywwfpzz&dl=1",
-        "https://www.dropbox.com/scl/fi/r7imi25cnubqpea8poiej/03-minyo-crusaders-Otemoyan-Reggae.mp3?rlkey=vq9t4ey22i83l0bngui6mfqps&st=sg7caxc6&dl=1",
-        "https://www.dropbox.com/scl/fi/euxegnf9c205s8odsk1nk/04-minyo-crusaders-Mamurogawa-Ondo-Beguine.mp3?rlkey=mjtrv0haanlr8klkwwp9wjkaj&st=62z1zc1f&dl=1",
-        "https://www.dropbox.com/scl/fi/y4hpueqeiexinra1bzxkt/05-minyo-crusaders-Yasugi-Bushi-Bolero.mp3?rlkey=vhzynmb63ttblb75b9fmjt5ir&st=cb1ewin0&dl=1",
-        "https://www.dropbox.com/scl/fi/ni199b4smsbux6zpirc0p/06-minyo-crusaders-Akita-Nikata-Bushi-Ethiopian-Groove.mp3?rlkey=ndt5go0fcszeg6ykeuyy4zcln&st=oa8o7iay&dl=1",
-        "https://www.dropbox.com/scl/fi/5cx6bwi6ld46rlb5ifs0s/07-minyo-crusaders-Toichin-Bushi-Afro-funk.mp3?rlkey=su4xt4hkqvqmr6i0g8qejqpk1&st=41lqqfxp&dl=1",
-        "https://www.dropbox.com/scl/fi/sn7no1zaldr7dqb6ujgj8/08-minyo-crusaders-Tanko-Bushi-Boogaloo.mp3?rlkey=wss4m7rfcgbcer3waygayloir&st=pla0xekl&dl=1",
-        "https://www.dropbox.com/scl/fi/0bz07tpz0qzvcwv95bbqm/09-minyo-crusaders-Aizu-Bandaisan-Latin.mp3?rlkey=gxdsn6r26hx483h6l9kuuut04&st=nqpo2wf5&dl=1",
-        "https://www.dropbox.com/scl/fi/p8i9ox6ymmgnm97zopon1/10-minyo-crusaders-Sumo-Jinku-A-capella.mp3?rlkey=7fwzeakoqdjg0wexgdoep6ej2&st=velrsm4i&dl=1",
-
-        "https://www.dropbox.com/scl/fi/jpapasmf58rgkl093k902/BandCampDownloader.app-A-ritmo-de-caramba-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=3763cgitpb2ka9hb2puvy7aaq&st=0edvnqv2&dl=1",
-        "https://www.dropbox.com/scl/fi/v10i9bv6fp9flakafclnt/BandCampDownloader.app-Africa-negra-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=6ktxjt9uq3e5wgil7pq6upo72&st=0439ivcj&dl=1",
-        "https://www.dropbox.com/scl/fi/vju0u18s4daqquxx01c3m/BandCampDownloader.app-Ala-ala-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=m9sj0jdu7twc8v0mm3t5299kv&st=8iwhjqn9&dl=1",
-        "https://www.dropbox.com/scl/fi/jsb6sq2p29il6nlc0xx20/BandCampDownloader.app-Atochita-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=00qc7xxu9bgmprjh269mwpjc1&st=xw5cmgjk&dl=1",
-        "https://www.dropbox.com/scl/fi/mpcam0b6tma6njkah2fhi/BandCampDownloader.app-Dale-duro-al-bombo-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=0gmjhv9fbgsqloc53glwa0zat&st=vc7wm7x5&dl=1",
-        "https://www.dropbox.com/scl/fi/hispj7cizthzah8zu3asj/BandCampDownloader.app-El-agua-turbia-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=06qirderoajoluia3qtw7yqgg&st=d0054pk4&dl=1",
-        "https://www.dropbox.com/scl/fi/hayqpwhui9wwxrhb82pr6/BandCampDownloader.app-El-clavito-de-Pablito-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=wzs5kznlv2kb286jvor7ji4gk&st=4i8k3iw0&dl=1",
-        "https://www.dropbox.com/scl/fi/4g1z5njyfv6xr0gcflnfw/BandCampDownloader.app-El-irag-ilde-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=jq8rmwrd55y8egneo55jizpyt&st=q5xebubf&dl=1",
-        "https://www.dropbox.com/scl/fi/9i1s7au1hss5n5twarcce/BandCampDownloader.app-Indirita-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=abyhnebctxhj5zbwt6jmvvnmq&st=9fj2us2i&dl=1",
-        "https://www.dropbox.com/scl/fi/ze713y0oi59osdefo2ub7/BandCampDownloader.app-La-brinca-brinca-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=qvif3nf76p2kaajsyjzk6plhb&st=520z9d7x&dl=1",
-        "https://www.dropbox.com/scl/fi/apkp4a7n3x6rw2a2rrebe/BandCampDownloader.app-La-muluta-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=dysrtsel0t9449wvstp21bn3a&st=4ezi1xz3&dl=1",
-        "https://www.dropbox.com/scl/fi/am7uvdi3fgh84c2nf33wi/BandCampDownloader.app-La-paz-verdadera-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=znek5yjff0g2qjsmkr9cm9aos&st=y7lzts2l&dl=1",
-        "https://www.dropbox.com/scl/fi/fkh9lftmslfxozedlac1z/BandCampDownloader.app-Me-piden-currulao-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=xufaiomsux861xjlkx0gws79f&st=59rp1sr4&dl=1",
-        "https://www.dropbox.com/scl/fi/7gsww907bshb9jgrg2sw3/BandCampDownloader.app-Rumba-pa_-goz-Ruca-_-El-Quinde-de-Barbacoas.mp3?rlkey=mmz65awbh0ag3spkv11irylqn&st=3bqijfsb&dl=1",
-
-      "https://www.dropbox.com/scl/fi/65mu38q1226w2clxju3gz/01-Lucas-y-Marypaz-Un-destello-diferente.mp3?rlkey=c4yyxm2pwghj8kaz63kvwe4z9&st=avx2ig38&dl=1",
-      "https://www.dropbox.com/scl/fi/1wej21qskf4hv3w1gzcfr/02-Lucas-y-Marypaz-Y-la-ma-ana-nace.mp3?rlkey=hz5klrl744bee2k4i9c3kj6jz&st=v8rgjnbs&dl=1",
-      "https://www.dropbox.com/scl/fi/sxjjodqowxaychdpb57cj/03-Lucas-y-Marypaz-Estos-hilos-que-yo-enhebro.mp3?rlkey=n6d9m72f3gzjnuxn6oje8paa4&st=n9auq7ai&dl=1",
-      "https://www.dropbox.com/scl/fi/7l4m8p2vifiksiyfo8r05/04-Lucas-y-Marypaz-Pie-que-danza.mp3?rlkey=s0s5q2555d8kw5ywys0hfay1n&st=ejaepxo9&dl=1",
-          
-          
-        ],
-        [
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-          "https://www.dropbox.com/scl/fi/qz92f9a113dbmmy46w0mq/echoesjapanmynyocrusaders.jpg?rlkey=zvwfoacwittbdj01gybtf1fkd&st=g5nqg6bu&dl=1",
-
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-          "https://www.dropbox.com/scl/fi/ja6tqz5249fm9hjcsq2fk/rucayelquindedebarbacoas.jpg?rlkey=5esmljg1jdsacs2zclpuxfvwh&st=6qp0qov6&dl=1",
-
-          "https://www.dropbox.com/scl/fi/yde9yrs7sr6t120j8e4z5/tawamuyu.jpg?rlkey=aw6zz6h25w0phng1h46zewc8o&st=i8j7ywfm&dl=1",
-          "https://www.dropbox.com/scl/fi/yde9yrs7sr6t120j8e4z5/tawamuyu.jpg?rlkey=aw6zz6h25w0phng1h46zewc8o&st=i8j7ywfm&dl=1",
-          "https://www.dropbox.com/scl/fi/yde9yrs7sr6t120j8e4z5/tawamuyu.jpg?rlkey=aw6zz6h25w0phng1h46zewc8o&st=i8j7ywfm&dl=1",
-          "https://www.dropbox.com/scl/fi/yde9yrs7sr6t120j8e4z5/tawamuyu.jpg?rlkey=aw6zz6h25w0phng1h46zewc8o&st=i8j7ywfm&dl=1",
-
-        ]
-      ];
+    
+    ],
+    [
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+        "https://www.dropbox.com/scl/fi/e9fqz65lv82vkmxxygrcs/criseCardiaque.jpg?rlkey=vu6wlu7vpnik4ngn2dmycrbmu&st=xte3desu&dl=1",
+    ]
+    ];
 
       const dancingDevilsDjibuti= [
         [
