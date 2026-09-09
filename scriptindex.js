@@ -19,6 +19,7 @@ document.getElementById("punkImage6").onclick = function() {window.open("https:/
 document.getElementById("punkImage7").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage8").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage9").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
+document.getElementById("punkImage10").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 
 const audioElement = document.querySelector("audio");
 var song = document.getElementById("myAudio");

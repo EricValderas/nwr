@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*4);
+          randomScript = Math.floor(Math.random()*5);
 
           
           if(randomScript==0)
@@ -146,22 +146,25 @@ function functionNext(){
                    }
 
             if(randomScript==4)
-                  {
-                            randomNumber = Math.floor(Math.random()*maratonico[0].length);
-                            navigator.mediaSession.metadata = new MediaMetadata({
-                            title: maratonico[0][randomNumber],
-                            artist: "Nervous Wreck Radio - World",
-                            album: "",
-                            artwork: [{ src: maratonico[2][randomNumber] }],
-                            
-                  });
-                            audioElement.src= maratonico[1][randomNumber];
-                            audioElement.play();
-                            document.title = maratonico[0][randomNumber];
-                            priceDesc.innerHTML = maratonico[0][randomNumber];
-                            Portada.src = maratonico[2][randomNumber];
-                  
-                  }
+                    {
+                        randomNumber = Math.floor(Math.random()*criminaltrapAnticimex[0].length);
+                        navigator.mediaSession.metadata = new MediaMetadata({
+                        title: criminaltrapAnticimex[0][randomNumber],
+                        artist: "Nervous Wreck Radio - Punk",
+                        album: "",
+                        artwork: [{ src: criminaltrapAnticimex[2][randomNumber] }],
+                        });
+                        
+                      
+                      audioElement.src= criminaltrapAnticimex[1][randomNumber];
+                      audioElement.play();
+                      document.title = criminaltrapAnticimex[0][randomNumber];
+                      priceDesc.innerHTML = criminaltrapAnticimex[0][randomNumber];
+                      Portada.src = criminaltrapAnticimex[2][randomNumber];
+            
+                    
+                     
+                    }
 
            if(randomScript==5)
                   {
@@ -568,43 +571,51 @@ const descanseenpazRDP = [
 
 //Disco7
 
-const maratonico = [
-    [
+const criminaltrapAnticimex = [
+        [
+         "Daughter of pride - Anti Cimex",
+         "Make my day - Anti Cimex",
+         "Nailbiter - Anti Cimex",
+         "New blood - Anti Cimex",
+         "Pain killer - Anti Cimex",
+         "Prelude E minor/Criminal trap - Anti Cimex",
+         "Set me free - Anti Cimex",
+         "Sister daylight - Anti Cimex",
+         "Smell of silence - Anti Cimex",
+         "Time to? - Anti Cimex",
+         
+         
         
-        "Cangrejeando en el apocalipsis - La Sonora Mazurén",
-        "Cumbia de mochila - La Sonora Mazurén",
-        "Cumbia Indigena - La Sonora Mazurén",
-        "El 4 y el 5 - La Sonora Mazurén",
-        "El zambito rumbero - La Sonora Mazurén",
-        "Intro - La Sonora Mazurén",
-        "Tiro al blanco - La Sonora Mazurén",
-        "Todos juntos - La Sonora Mazurén",
-        "Vida Mía Corazón - La Sonora Mazurén",
-    ],
-    [
-        
-        "https://www.dropbox.com/scl/fi/e3w2iyxaiqfxl2mxzqkxt/03-La-Sonora-Mazur-n-La-Sonora-Mazur-n-Cangrejeando-en-el-apocal-psis.mp3?rlkey=fudq2r3b2vy7ya4ljqw8b6qnu&st=mv21mkjv&dl=1",
-        "https://www.dropbox.com/scl/fi/gk6fa6rji16a1hmy4pfas/07-La-Sonora-Mazur-n-Cumbia-de-Mochila.mp3?rlkey=34k6i3c52e36h961bpox94cky&st=cm5x5l9r&dl=1",
-        "https://www.dropbox.com/scl/fi/loz0tp0t2xih1v9edezal/09-La-Sonora-Mazur-n-La-Sonora-Mazur-n-Cumbia-Ind-gena.mp3?rlkey=zz2utlb3py34ngltasxqqdnvb&st=y46u9g2y&dl=1",
-        "https://www.dropbox.com/scl/fi/lluo900v8db727m9qwdt4/05-La-Sonora-Mazur-n-El-4-y-5.mp3?rlkey=9nujo8185zvsqe5ms0jblpsch&st=bzhcgtuc&dl=1",
-        "https://www.dropbox.com/scl/fi/wckma6hli3p11kt2jwcrx/04-La-Sonora-Mazur-n-La-Sonora-Mazur-n-Zambito-rumbero.mp3?rlkey=uvl9ct3hy9zy6169sqmb73x94&st=8getjom7&dl=1",
-        "https://www.dropbox.com/scl/fi/12xu3i58a5ktrfsnwxsp2/01-La-Sonora-Mazur-n-Intro.mp3?rlkey=wqsps0meesl1htq3qy81k9o53&st=w8i2w4vj&dl=1",
-        "https://www.dropbox.com/scl/fi/ohyuxq20qyt7lnchifs60/02-La-Sonora-Mazur-n-Tiro-al-blanco.mp3?rlkey=ynwajzka8wu75zi4sgy6doljp&st=7t3fjr4o&dl=1",
-        "https://www.dropbox.com/scl/fi/tby5zocqvmi33m9f87ku4/08-La-Sonora-Mazur-n-Todos-Juntos.mp3?rlkey=ir10nki5v1z5479b7r6psqvbx&st=1iihwzid&dl=1",
-        "https://www.dropbox.com/scl/fi/ivu7ekveazjemcq24i6op/06-La-Sonora-Mazur-n-La-Sonora-Mazur-n-Vida-m-a-coraz-n.mp3?rlkey=cvgyfcowesqvbxrrvojh11a32&st=eteqtv0a&dl=1",
-    ],
-    [
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-        "https://www.dropbox.com/scl/fi/z7ccsmtch8r4wnvx4suvz/maratonicosandungonvol1.jpg?rlkey=qxak84a9lt4cb65iw6jbe0kog&st=30gwf0yj&dl=1",
-    ],
-]
+        ],[
+          "https://www.dropbox.com/scl/fi/ea1g3iidaaqmh9hvvr17a/daughter-of-pride.mp3?rlkey=kury44ls6w1xpgknzc7vk13yb&st=jpndn7f5&dl=1",
+          "https://www.dropbox.com/scl/fi/8cx7pshs5myrmoyxkin7o/make-my-day.mp3?rlkey=kkc9xeglz9eqlfn382n3nwcdp&st=sinkuxb0&dl=1",
+          "https://www.dropbox.com/scl/fi/acp49u80jt0vbawemeejf/nailbiter.mp3?rlkey=9tfbmbobbb2r24d851dhnimic&st=n24zrbhk&dl=1",
+          "https://www.dropbox.com/scl/fi/tkubuqkdim5cv81m5temw/new-blood.mp3?rlkey=tcdewleaxw8ahxqmcrukwjewr&st=6e99kzyh&dl=1",
+          "https://www.dropbox.com/scl/fi/tdbtzhg0memhju5lxznoh/pain-killer.mp3?rlkey=gcopybulsnepfl1fxt2iib8hm&st=mmluuzi7&dl=1",
+          "https://www.dropbox.com/scl/fi/eb2oz7rxyznd95zwzjm7j/prelude-e-minor-criminal-trap.mp3?rlkey=wyk3xjh9lt2bdddwyq4v4clmi&st=za8bay2a&dl=1",
+          "https://www.dropbox.com/scl/fi/cl8kf58ocdvuyy172bab4/set-me-free.mp3?rlkey=qacjt9rfvrdlhh2whwftatf3i&st=bst2oq86&dl=1",
+          "https://www.dropbox.com/scl/fi/6h0ghxdjrto4c49ngrlk3/sister-daylight.mp3?rlkey=jzzjgdqi2s721k7vmkibmrj2x&st=jl6e3evp&dl=1",
+          "https://www.dropbox.com/scl/fi/cglkq3pb8bc6uffm9wtan/smell-of-silence.mp3?rlkey=v191hzyj097b2w8k9011ryoqk&st=0620azoa&dl=1",
+          "https://www.dropbox.com/scl/fi/rf3u3mk33jw5fu8o7f430/time-to.mp3?rlkey=tn3uitloueawh6eml4k5ihxwn&st=9wx2tgr6&dl=1",]
+          
+      ,[
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+        "https://www.dropbox.com/scl/fi/vwuvm69w5swip3ujknsd1/criminaltrapanticimex.jpg?rlkey=cb896vzxcfj1e7ktj53ode6aa&st=79jfjkdq&dl=1",
+
+       
+       
+       
+      ] 
+      ];
+
 
 // Disco 8
 
