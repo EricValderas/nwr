@@ -160,7 +160,8 @@ p {
 
 #worldImage1,#worldImage2,#worldImage3,#worldImage4,#worldImage5,#worldImage6,
 #worldImage7,#worldImage8,#worldImage9,#punkImage1,#punkImage2,#punkImage3,
-#punkImage4,#punkImage5,#punkImage6,#punkImage7,#punkImage8,#punkImage9,#punkImage10{
+#punkImage4,#punkImage5,#punkImage6,#punkImage7,#punkImage8,#punkImage9,
+#punkImage10,#punkImage11{
 height: 300px;
 width: auto;
 border: solid 3px #000 ;

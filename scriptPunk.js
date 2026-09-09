@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*5);
+          randomScript = Math.floor(Math.random()*6);
 
           
           if(randomScript==0)
@@ -166,24 +166,26 @@ function functionNext(){
                      
                     }
 
-           if(randomScript==5)
-                  {
-                    arrayTitle=lovarititirobin;
-                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
-                    navigator.mediaSession.metadata = new MediaMetadata({
-                    title: arrayTitle[0][randomNumber],
-                    artist: "Nervous Wreck Radio - World",
-                    album: "",
-                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
-                  });
-          
-                    audioElement.src= arrayTitle[1][randomNumber];
-                    audioElement.play();
-                    document.title = arrayTitle[0][randomNumber];
-                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
-                    Portada.src = arrayTitle[2][randomNumber];
-          
-                  }
+            if(randomScript==5)
+                   {
+                       randomNumber = Math.floor(Math.random()*MOB47TillsDor[0].length);
+                       navigator.mediaSession.metadata = new MediaMetadata({
+                       title: MOB47TillsDor[0][randomNumber],
+                       artist: "Nervous Wreck Radio - Punk",
+                       album: "",
+                       artwork: [{ src: MOB47TillsDor[2][randomNumber] }],
+                       });
+                       
+                     
+                     audioElement.src= MOB47TillsDor[1][randomNumber];
+                     audioElement.play();
+                     document.title = MOB47TillsDor[0][randomNumber];
+                     priceDesc.innerHTML = MOB47TillsDor[0][randomNumber];
+                     Portada.src = MOB47TillsDor[2][randomNumber];
+           
+                   
+                    
+                   }
 
           if(randomScript==6)
                   {
@@ -568,9 +570,6 @@ const descanseenpazRDP = [
       ];
 
 
-
-//Disco7
-
 const criminaltrapAnticimex = [
         [
          "Daughter of pride - Anti Cimex",
@@ -616,53 +615,66 @@ const criminaltrapAnticimex = [
       ] 
       ];
 
-
-// Disco 8
-
-const lovarititirobin = [
+const MOB47TillsDor = [
         [
-         "Jarna - Titi Robin",
-         "Kicsi Kicsi Kém - Titi Robin",
-         "L'aube Impatiente - Titi Robin",
-         "La petite mer - Titi Robin",
-         "Lovari - Titi Robin",
-         "Ma Gavali Rumba - Titi Robin",
-         "Mehdi - Titi Robin",
-         "Memed Ve Seyrane - Titi Robin",
-         "Sandhya - Titi Robin",
-         
+         "Bra TV - Mob 47",
+         "Den Enes Brod - Mob 47",
+         "Den Svenska Modellen - Mob 47",
+         "Grisar I Kostym - Mob 47",
+         "Jobba Tills Du Dor - Mob 47",
+         "Masspsykos - Mob 47",
+         "Misar Och Dod - Mob 47",
+         "Moder Jord - Mob 47",
+         "Pest Eller Kolera - Mob 47",
+         "Punken Fostorde Mitt Liv - Mob 47",
+         "På Ditt Satt - Mob 47",
+         "Ratt Ska Va Ratt - Mob 47",
+         "Religios Farsot - Mob 47",
+         "Spela Bort Ditt Liv - Mob 47",
+         "Tank Sjalv - Mob 47",
+         "Ut Med Det Gamla - Mob 47"
          
         
-        ],
-        [
-          "https://www.dropbox.com/scl/fi/xbmxijqe2nuybbjx5hqkw/08-Titi-Robin-Jarna.mp3?rlkey=3e4miwwl6du6qxdkztcazr427&st=6d8fmp9m&dl=1",
-          "https://www.dropbox.com/scl/fi/m3d7y6w7mnzclhjqemxya/04-Titi-Robin-Kicsi-Kicsi-K-m-Nu-No.-1.mp3?rlkey=8xa8vyfkig2pmkrlki54c6gk2&st=dhmou0cb&dl=1",
-          "https://www.dropbox.com/scl/fi/oodu04e9jgrxyq85gf02j/01-Titi-Robin-L-aube-Impatiente.mp3?rlkey=3k5su3r1i8of1ypkpkmv9n4rg&st=gk0mwlkf&dl=1",
-          "https://www.dropbox.com/scl/fi/s8i02uhozshhk8nvbyt38/05-Titi-Robin-La-Petite-Mer.mp3?rlkey=2vb4ygf8n3vxeplq8sw0n9r3z&st=95gyltnr&dl=1",
-          "https://www.dropbox.com/scl/fi/d46r9s3toqw5510z5g4zt/03-Titi-Robin-Lovari.mp3?rlkey=tx8ltj5lahfnofkcn9arund88&st=gijb45mg&dl=1",
-          "https://www.dropbox.com/scl/fi/8mhf97tt36012oactlk7d/06-Titi-Robin-Ma-Gavali-Rumba.mp3?rlkey=kco1k1th9puyhh0et4xk6v21p&st=r95szvd6&dl=1",
-          "https://www.dropbox.com/scl/fi/q77yf8c41clwves7vb4c5/02-Titi-Robin-Mehdi.mp3?rlkey=5b4oxg8qn4ezx9me77slylgzd&st=qr8qmc14&dl=1",
-          "https://www.dropbox.com/scl/fi/tktvbr9ul6822wz5kg7k5/07-Titi-Robin-Memed-Ve-Seyrane.mp3?rlkey=sc0jvnnprv1eo4oxv6t8yrys5&st=0gab8gf3&dl=1",
-          "https://www.dropbox.com/scl/fi/nqo11zb3ij8vo9if68fpt/09-Titi-Robin-Sandhya.mp3?rlkey=e7brtzi89kj03ox6j6afwknim&st=8zeinyk8&dl=1",
-          
-        ],
-        [
-
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-        "https://www.dropbox.com/scl/fi/ijj81yu5uupib16y6zpqf/lovarititirobin.jpg?rlkey=45l1gtawf9oh2i71mbww6llcw&st=t7ut07cd&dl=1",
-    
+        ],[
+          "https://www.dropbox.com/scl/fi/atlq1d93j45tk60ic1vgc/bra-tv.mp3?rlkey=f010w3h987om42woeyzk360x5&st=ehospkpj&dl=1",
+          "https://www.dropbox.com/scl/fi/sp03j15gvvdy7hgxa6n7m/den-enes-br_-_d.mp3?rlkey=xrt60wy5dryjc0h6x68hxko47&st=iym8jbys&dl=1",
+          "https://www.dropbox.com/scl/fi/h8q4twelonspx5qnkvi4t/den-svenska-modellen.mp3?rlkey=zgw0nxxt13ppj6lh74x5t43dm&st=5t5u790h&dl=1",
+          "https://www.dropbox.com/scl/fi/avlodpi67whq7r51gk183/grisar-i-kostym.mp3?rlkey=868f12dljoq31uezeu56vbbwp&st=f9wvzziw&dl=1",
+          "https://www.dropbox.com/scl/fi/5pudgr0x86erttmvbx833/jobba-tills-du-d_-_r.mp3?rlkey=9zk80yi8f8px8b8rnc2zyo3u8&st=dt55xj77&dl=1",
+          "https://www.dropbox.com/scl/fi/bx6kwqm80wmw38o6iag6t/masspsykos.mp3?rlkey=8f0yavulc5mcbupahxrbe3pqh&st=0h6r4g7l&dl=1",
+          "https://www.dropbox.com/scl/fi/uoa60vrwi7iwe9dz6va29/mis_-_r-och-d_-_d.mp3?rlkey=i0ayrnsdgb867tyv342mj35iy&st=qsrru47d&dl=1",
+          "https://www.dropbox.com/scl/fi/xuu85m6j53oxx3z2hv1zn/moder-jord.mp3?rlkey=7gsdy0n0k2bw7wui2pl2ujddp&st=a0fx5ld2&dl=1",
+          "https://www.dropbox.com/scl/fi/6ys5rcqz0g6jcr4ya7bb0/pest-eller-kolera.mp3?rlkey=tw9ciqronfh9aipfmxhc09sm9&st=iedjui24&dl=1",
+          "https://www.dropbox.com/scl/fi/fzpb7m3eb76ynphlbwjf7/punken-f_-_rst_-_rde-mitt-liv.mp3?rlkey=059pa8nlvmxve7sxgg4fetf00&st=m200s7om&dl=1",
+          "https://www.dropbox.com/scl/fi/93iirwhjiim9npqxgu230/p-ditt-s_-_tt.mp3?rlkey=6enfarx3hdpiv7hb47s1t7ah3&st=cdj3cj51&dl=1",
+          "https://www.dropbox.com/scl/fi/3c9c5561u9uoxf0qvsqa9/r_-_tt-ska-va-r_-_tt.mp3?rlkey=9yamlvfiok97mpnv74ayfwzz3&st=38bk03zj&dl=1",
+          "https://www.dropbox.com/scl/fi/lojscmdf4h9u8mj3bqa96/religi_-_s-farsot.mp3?rlkey=qqili0zzjed9wiymxrkkq96hw&st=302r65jd&dl=1",
+          "https://www.dropbox.com/scl/fi/vqi0hx7lean8iw2n6vajh/spela-bort-ditt-liv.mp3?rlkey=03acn2bof5uilqa3hsqq6d7ub&st=wogeb474&dl=1",
+          "https://www.dropbox.com/scl/fi/io8nc0an8ifh8grsngpwb/t_-_nk-sj_-_lv.mp3?rlkey=y7wj683h1n5b4g86g7szpymur&st=0fie19y4&dl=1",
+          "https://www.dropbox.com/scl/fi/c6j4fr5lqu14dohjb2c76/ut-med-det-gamla.mp3?rlkey=ol278wxw3yoxkp2saln5ytjra&st=byfzud60&dl=1",
+         
+        ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        "https://www.dropbox.com/scl/fi/xhuw6xflzlsryey96hk6b/Mob47Dor.jpg?rlkey=suvl28v7pfvg53kyy0ghwkfp6&st=k3dub9gx&dl=1",
+        
       ] 
       ];
 
-
-//Disco 9
 
       const cumbiadejuventud = [
     [
