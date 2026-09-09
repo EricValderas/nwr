@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*3);
+          randomScript = Math.floor(Math.random()*4);
 
           
           if(randomScript==0)
@@ -125,22 +125,25 @@ function functionNext(){
                    }
 
            if(randomScript==3)
-                  {
-                    randomNumber = Math.floor(Math.random()*jambuAmazonia[0].length);
-                    navigator.mediaSession.metadata = new MediaMetadata({
-                    title: jambuAmazonia[0][randomNumber],
-                    artist: "Nervous Wreck Radio - World",
-                    album: "",
-                    artwork: [{ src: jambuAmazonia[2][randomNumber] }],
+                   {
+                       randomNumber = Math.floor(Math.random()*descanseenpazRDP[0].length);
+                       navigator.mediaSession.metadata = new MediaMetadata({
+                       title: descanseenpazRDP[0][randomNumber],
+                       artist: "Nervous Wreck Radio - Punk",
+                       album: "",
+                       artwork: [{ src: descanseenpazRDP[2][randomNumber] }],
+                       });
+           
                     
-                  });
-                    audioElement.src= jambuAmazonia[1][randomNumber];
-                    audioElement.play();
-                    document.title = jambuAmazonia[0][randomNumber];
-                    priceDesc.innerHTML = jambuAmazonia[0][randomNumber];
-                    Portada.src = jambuAmazonia[2][randomNumber];
-          
-                  }
+                     audioElement.src= descanseenpazRDP[1][randomNumber];
+                     audioElement.play();
+                     document.title = descanseenpazRDP[0][randomNumber];
+                     priceDesc.innerHTML = descanseenpazRDP[0][randomNumber];
+                     Portada.src = descanseenpazRDP[2][randomNumber];
+           
+                  
+                    
+                   }
 
             if(randomScript==4)
                   {
@@ -514,80 +517,54 @@ function functionNext(){
       ] 
       ];
 
-
-      const jambuAmazonia = [
+const descanseenpazRDP = [
         [
-            "Lundun da yaya - Grupo da pesada",
-            "Võa Andorinha - Grupo da pesada",
-            "Janjão - Meu Barquinho",
-            "Magalhães e Sua Guitarra - Xangô",
-            "Messias Holanda - Carimbó Da Pimenta",
+         "Cerebros atomicos - Ratos de porão",
+         "Morrer mais uma vez - Ratos de porão",
+         "Velhus decréptus - Ratos de porão",
+         "No junk - Ratos de porão",
+         "Sofrimento real - Ratos de porão",
+         "Juventude perdida - Ratos de porão",
+         "Paranoia nuclear - Ratos de porão",
+         "Descanse em Paz - Ratos de porão",
+         "Fora EU - Ratos de porão",
+         "Aviso final - Ratos de porão",
+         "Zona - Ratos de porão",
+         "Periferia - Ratos de porão",
+         
+        
+        ],[
+          "https://www.dropbox.com/scl/fi/ba0q51gg0vgrrylkg7x7d/01-Cerebros-Atomicos.mp3?rlkey=yjdh07vgf18c5yxjkp8s29ubj&st=dgjkl85v&dl=1",
+          "https://www.dropbox.com/scl/fi/4sk41oi9c6fgvgcnv18rp/02-Morrer-Mais-Uma-Vez.mp3?rlkey=9ktn7jvquiuewbtfwea76nw4w&st=nxh5r456&dl=1",
+          "https://www.dropbox.com/scl/fi/lxejgaqsnq8zkhmtidexs/03-Velhos-Decreptus.mp3?rlkey=tfri004w5lndnetspu3kharna&st=z5amq3f4&dl=1",
+          "https://www.dropbox.com/scl/fi/6bzp1d4vj32t0owvqbnx0/04-No-Junk.mp3?rlkey=3tuybg2amccfbvpqk3mh3fsu7&st=cg1v1wzp&dl=1",
+          "https://www.dropbox.com/scl/fi/7mwpvk38wpul4uap0lhmv/05-Sofrimento-Real.mp3?rlkey=olqcds08sxyttkirh20el7e0c&st=1g1euko2&dl=1",
+          "https://www.dropbox.com/scl/fi/gaas7usiokt1o2pcq2i6s/06-Juventude-Perdida.mp3?rlkey=uwai6ovdpc5vytn6iz02k9ce0&st=xzrunla7&dl=1",
+          "https://www.dropbox.com/scl/fi/b2gziad8fmgr6idj13wsh/07-Paranoia-Nuclear.mp3?rlkey=qxnn6evczk3karxifl13scfn5&st=5xpufk9b&dl=1",
+          "https://www.dropbox.com/scl/fi/51fbn7pzp34sve1m8qqpy/08-Descanse-Em-Paz.mp3?rlkey=denc78cbhxjftquv0q6p9cuqc&st=ta3n8hdt&dl=1",
+          "https://www.dropbox.com/scl/fi/dmo4rxlat1m29rscy2qso/09-Fora-Eu.mp3?rlkey=5cjluh4596p5yrdxu6tfsk4aw&st=ya2vgp34&dl=1",
+          "https://www.dropbox.com/scl/fi/2a0b0arbnnz2k0swhhw8b/10-Aviso-Final.mp3?rlkey=l2mzfjnxehmtosbh7esgpecli&st=7es97ele&dl=1",
+          "https://www.dropbox.com/scl/fi/k5zfl8gvcj19ocgogoblu/11-Zona.mp3?rlkey=yfrqsnvm34fdhigv4gtoggttg&st=in5s00i2&dl=1",
+          "https://www.dropbox.com/scl/fi/4tcojg4q6v3ivgfvlzzzu/12-Periferia-Live-Bonus-Track-83.mp3?rlkey=iop1lk6qnl00wwl74wvqvidm9&st=5j184lzj&dl=1",
+          
+      ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+        "https://www.dropbox.com/scl/fi/osctenaosg65zlqvpwq9k/descanseenpaz.jpg?rlkey=oaz9fvc77uu4bxm2ugmvzhs5e&st=kx7jf9qo&dl=1",
+      ] 
+      ];
 
-            "Messias Holanda - O Galo Canta, O Macaco Assovia",
-            "Mestre Cupijó e Seu Ritmo - Despedida",
-            "O Conjunto De Orlando Pereira - Carimbó Para Yemanjá",
-            "O Conjunto De Orlando Pereira - Maruda",
-            "Os Muiraquitãns - A Misturada",
 
-            "Os Quentes de Terra Alta - Praia Do Algodoal",
-            "Pinduca - Coco Da Bahia",
-            "Pinduca - Pai Xangô",
-            "Pinduca - Vamos Farrear",
-            "Verequete e O Conjunto Uirapurú - Da Garrafa uma pinga",
-
-            "Verequete e O Conjunto Uirapurú - Mambo Assanhado",
-            "Vieira e Seu Conjunto - Lambada Da Baleia",
-            "Vieira e Seu Conjunto - Melô Do Bode",
-        ],
-        [
-            "https://www.dropbox.com/scl/fi/r3fls0st0zfisz7tq40go/grupo-da-pesada-lundun-da-yaya.mp3?rlkey=wckki35odhqmhjykl8f8x62mw&st=4ppvw5qm&dl=1",
-            "https://www.dropbox.com/scl/fi/7kmvcmruuthl2v6ahopaq/grupo-da-pesada-v-a-andorinha.mp3?rlkey=ws5ev7itx0k5z90ts13zbvq0h&st=jyju7ai4&dl=1",
-            "https://www.dropbox.com/scl/fi/wrc3pf6cu5a2fclncg8f3/janj-o-meu-barquinho.mp3?rlkey=lg4rqrdl4jksa3fla1fa6v3tl&st=6gle55on&dl=1",
-            "https://www.dropbox.com/scl/fi/oove275aap133u01lrfej/magalh-es-e-sua-guitarra-xang.mp3?rlkey=7e14xd8bzt7768x67f1y72t4k&st=kx2bp3ev&dl=1",
-            "https://www.dropbox.com/scl/fi/rwzu8ts33zkzmbdagmxpi/messias-holanda-carimb-da-pimenta.mp3?rlkey=6hxi4s1w68nedxovmg8nzkxxm&st=b3n2yso5&dl=1",
-
-            "https://www.dropbox.com/scl/fi/94reg0bnpt3kj6vyierug/messias-holanda-o-galo-canta-o-macaco-assovia.mp3?rlkey=ugoyeza2yl10x8e2991zs6v7b&st=9368m8x9&dl=1",
-            "https://www.dropbox.com/scl/fi/sj9xbv3zinb8qaf7cvcwf/mestre-cupij-e-seu-ritmo-despedida.mp3?rlkey=tuj8tjbf003zv674tist5z236&st=1mn08bjb&dl=1",
-            "https://www.dropbox.com/scl/fi/jj6ofd35m4ww0u6ttmnr0/o-conjunto-de-orlando-pereira-carimb-para-ye.mp3?rlkey=uvk9smprjeymredk2t3raw1zm&st=xc93ngk9&dl=1",
-            "https://www.dropbox.com/scl/fi/k46gk6pym2wbkzabn2dnw/o-conjunto-de-orlando-pereira-maruda.mp3?rlkey=3v6vy5tf11fm1433va5s4xvh6&st=ckgi913e&dl=1",
-            "https://www.dropbox.com/scl/fi/u4uwmw0qodb1db6kygold/os-muiraquit-ns-a-misturada.mp3?rlkey=edw6qst2a7qlaabrnat58hkha&st=ga0bl3ze&dl=1",
-
-            "https://www.dropbox.com/scl/fi/xntlcd75b2ea5ddxnxj9a/os-quentes-de-terra-alta-praia-do-algodoal.mp3?rlkey=ox1u983tttismyof6no4xr9wx&st=0fw7n85l&dl=1",
-            "https://www.dropbox.com/scl/fi/4s2pd30xvuuypbtay84dx/pinduca-coco-da-bahia.mp3?rlkey=px0bzu4u3ww078etap1b2mrjd&st=7bqu3iy3&dl=1",
-            "https://www.dropbox.com/scl/fi/qgtb5srar55jk9m3nbu5p/pinduca-pai-xang.mp3?rlkey=avyf5nthwd2iu72vtgdv93v5k&st=nsexu2ob&dl=1",
-            "https://www.dropbox.com/scl/fi/ehz20nj3axloyg6svkp55/pinduca-vamos-farrear.mp3?rlkey=sm2x2kzoh0d6iol4swlagz45c&st=ezzf7ken&dl=1",
-            "https://www.dropbox.com/scl/fi/a3zx2ucfpd9pfk9zsm835/verequete-e-o-conjunto-uirapur-da-garrafa-um.mp3?rlkey=ju8rcs5r9bi3tlopc4d864kmw&st=y94s4ppp&dl=1",
-
-            "https://www.dropbox.com/scl/fi/pet800rqwoolshxpbappr/verequete-e-o-conjunto-uirapur-mambo-assanha.mp3?rlkey=hbhx270ss384l7ppk4anmii67&st=4e7ix3sl&dl=1",
-            "https://www.dropbox.com/scl/fi/6x7x14cum2torv5eozfwl/vieira-e-seu-conjunto-lambada-da-baleia.mp3?rlkey=ctayiucqy2975lyhcwuxzzgws&st=pw60gmed&dl=1",
-            "https://www.dropbox.com/scl/fi/bqfds7a66d763vql4mrbw/vieira-e-seu-conjunto-mel-do-bode.mp3?rlkey=yv6g3oycnylwboaveabr70jt8&st=1381c076&dl=1",
-        ],
-        [
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            "https://www.dropbox.com/scl/fi/e1768f7h8t0577gnu7t7l/jambuAmazonia.jpg?rlkey=ylw5wjcamhalr3soafz2sjiwh&st=mv4rpyo4&dl=1",
-            
-            
-        ],
-];
 
 //Disco7
 
