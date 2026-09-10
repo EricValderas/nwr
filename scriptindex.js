@@ -35,6 +35,14 @@ let musicBego = false;
 let kaaosBoolean = false;
 let priceDesc = document.getElementById('price');
 
+window.addEventListener('load', () => {
+  const loader = document.getElementById('pantalla-carga');
+  loader.style.opacity = '0';
+  setTimeout(() => {
+    loader.style.display = 'none';
+  }, 500); // Coincide con la transición de CSS
+});
+
 
   
         
