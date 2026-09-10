@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*6);
+          randomScript = Math.floor(Math.random()*7);
 
           
           if(randomScript==0)
@@ -187,24 +187,26 @@ function functionNext(){
                     
                    }
 
-          if(randomScript==6)
-                  {
-                    arrayTitle=cumbiadejuventud;
-                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
-                    navigator.mediaSession.metadata = new MediaMetadata({
-                    title: arrayTitle[0][randomNumber],
-                    artist: "Nervous Wreck Radio - World",
-                    album: "",
-                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
-                  });
-          
-                    audioElement.src= arrayTitle[1][randomNumber];
-                    audioElement.play();
-                    document.title = arrayTitle[0][randomNumber];
-                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
-                    Portada.src = arrayTitle[2][randomNumber];
-          
-                  }
+         if(randomScript==6)
+                 {
+                     randomNumber = Math.floor(Math.random()*pipebomb[0].length);
+                     navigator.mediaSession.metadata = new MediaMetadata({
+                     title: pipebomb[0][randomNumber],
+                     artist: "Nervous Wreck Radio - Punk",
+                     album: "",
+                     artwork: [{ src: pipebomb[2][randomNumber] }],
+                   
+                   });
+         
+                   
+                   audioElement.src= pipebomb[1][randomNumber];
+                   audioElement.play();
+                   document.title = pipebomb[0][randomNumber];
+                   priceDesc.innerHTML = pipebomb[0][randomNumber];
+                   Portada.src = pipebomb[2][randomNumber];
+                  
+                   
+                 }
   
             
         }
@@ -676,57 +678,68 @@ const MOB47TillsDor = [
       ];
 
 
-      const cumbiadejuventud = [
-    [
-        "A volar moscas - Los Golden Boys",
-        "Cumbia de juventud - Los Golden Boys",
-        "Cumbia y beso - Los Golden Boys",
-        "El año viejo - Los Golden Boys",
-        "El buena vida - Los Golden Boys",
-        "El elevao - Los Golden Boys",
-        "La cumbia de la marihuana - Los Golden Boys",
-        "La luna y la playa - Los Golden Boys",
-        "Las colombianas - Los Golden Boys",
-        "Si me quieres - Los Golden Boys",
-        "Sonrieme - Los Golden Boys",
-        "Vengan a baila - Los Golden Boys",
+      const pipebomb = [
+        [
+        "This what i want - Front Seat Solidarity",
+         "A hundred dollars - Front Seat Solidarity",
+         "Board of tourism - Front Seat Solidarity",
+         "Body count - Front Seat Solidarity",
+         "Depression - Front Seat Solidarity",
+
+         "Drunk punk - Front Seat Solidarity",
+         "Forgotten not gone - Front Seat Solidarity",
+         "Grampa - Front Seat Solidarity",
+         "Hot diggety - Front Seat Solidarity",
+         "Mouseteeth  - Front Seat Solidarity",
+         
+         "Selma - Front Seat Solidarity",
+         "The argument - Front Seat Solidarity",
+         "Trains and cops - Front Seat Solidarity",
+         "We Shall Not Be Moved - Front Seat Solidarity",
+        
+        ],
+        [
+          "https://www.dropbox.com/scl/fi/jlu42l200ums43fijh0z1/01-THIS-BIKE-IS-A-PIPE-BOMB-This-Is-What-I-Want.mp3?rlkey=wb3qopvyk09vw43iblent3q3v&st=fl87n3ap&dl=1",
+          "https://www.dropbox.com/scl/fi/akl8ue8lfcyurp5gvhf6z/06-THIS-BIKE-IS-A-PIPE-BOMB-A-Hundred-Dollars.mp3?rlkey=rxcpe1lx5eupsqm4vuhcictd3&st=0axufyt0&dl=1",
+          "https://www.dropbox.com/scl/fi/bw58ar9pdh9v18h5m90kj/12-THIS-BIKE-IS-A-PIPE-BOMB-Board-of-Tourism.mp3?rlkey=vfcjhullg9ygrwkrt2hyvkg3n&st=83j389cx&dl=1",
+          "https://www.dropbox.com/scl/fi/mri2w7mqs7uters3jem8w/03-THIS-BIKE-IS-A-PIPE-BOMB-Body-Count.mp3?rlkey=as1fyt4j4sp9781cci82eevan&st=3df2a9ac&dl=1",
+          "https://www.dropbox.com/scl/fi/b4zotygrf64ffu6n6tlhk/07-THIS-BIKE-IS-A-PIPE-BOMB-Depression.mp3?rlkey=ab7lgp61eg3d66yx8wo1l0sdh&st=8q31b7z3&dl=1",
+
+          "https://www.dropbox.com/scl/fi/3xbk3puou21cna1hozoaw/09-THIS-BIKE-IS-A-PIPE-BOMB-Drunk-Punk.mp3?rlkey=92e2aqo4e56x72392vmj6stg5&st=q1elrlas&dl=1",
+          "https://www.dropbox.com/scl/fi/divjy8qlzxhli66l0t39d/14-THIS-BIKE-IS-A-PIPE-BOMB-Forgotten-Not-Gone.mp3?rlkey=h6ua297v8caavpl584qijhkka&st=wz1wea3v&dl=1",
+          "https://www.dropbox.com/scl/fi/rcunk7bnd05d8nquk8jev/11-THIS-BIKE-IS-A-PIPE-BOMB-Grampa.mp3?rlkey=gi5gwt5lr2f5oeyuei3coeka1&st=j7ye5vss&dl=1",
+          "https://www.dropbox.com/scl/fi/vqoxakeac17vsenodbxfd/10-THIS-BIKE-IS-A-PIPE-BOMB-Hot-Diggety.mp3?rlkey=v62l2mvysuqpj4fakr9caceyu&st=z03aqb9a&dl=1",
+          "https://www.dropbox.com/scl/fi/2oy4ww39ztovxdp86541f/05-THIS-BIKE-IS-A-PIPE-BOMB-Mouseteeth.mp3?rlkey=47abzoh15cknsum97ycrordfz&st=y8sowj0h&dl=1",
+
+          "https://www.dropbox.com/scl/fi/9r8xb2zmfdo9oja5t8rvd/02-THIS-BIKE-IS-A-PIPE-BOMB-Selma.mp3?rlkey=47qrz1jy8j1fl4gdpr4rgoag9&st=dtirpjc4&dl=1",
+          "https://www.dropbox.com/scl/fi/ksoy7qi4ijp6kezysxved/08-THIS-BIKE-IS-A-PIPE-BOMB-The-Argument.mp3?rlkey=3ucr2ptlgxzm98xwq7ep49j2p&st=c19orllm&dl=1",
+          "https://www.dropbox.com/scl/fi/wf2rhm9dz6h8i6chepk5p/04-THIS-BIKE-IS-A-PIPE-BOMB-Trains-and-Cops.mp3?rlkey=i8zlqh8zqkprjcvels93vyneu&st=66xeqve0&dl=1",
+          "https://www.dropbox.com/scl/fi/9wfb55oykbyxvqxlanauz/13-THIS-BIKE-IS-A-PIPE-BOMB-We-Shall-Not-Be-Moved.mp3?rlkey=75zj35ea1abd7ivmrxwhbh8at&st=kbi1fstt&dl=1",
+        ],
+        [
+
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
+        "https://www.dropbox.com/scl/fi/k8hex1v8wfm427uav3b11/thisbikeisapipebomb.jpg?rlkey=nhsth06d1e3db1wqifemv1cy6&st=5t6tk2zb&dl=1",
         
        
-    ],
-    [
-        "https://www.dropbox.com/scl/fi/06vov200tkh1f20eh6w0x/a-volar-moscas.mp3?rlkey=81e9xbu1icadlhp8wi8ed4kes&st=rut2ej2y&dl=1",
-        "https://www.dropbox.com/scl/fi/ai5ah1ys7vd7fk7wtvox3/cumbia-de-juventud.mp3?rlkey=8p3vsk98mwm80g791se0cwfof&st=4qmficoe&dl=1",
-        "https://www.dropbox.com/scl/fi/jd1djrh8744rwrzesi62i/cumbia-y-beso.mp3?rlkey=6wlzi734rs2cr2129fph9u5xu&st=oaqo8qq5&dl=1",
-        "https://www.dropbox.com/scl/fi/tclrfnrrq1vt7u82ckt50/el-a-o-viejo.mp3?rlkey=nlrx05vcyk61s4y7b6z06quya&st=zwcg1q7e&dl=1",
-        "https://www.dropbox.com/scl/fi/qz74hn44uclclq5jsb2dt/el-buena-vida.mp3?rlkey=7toc74vn25deefvk5ehh5c9q6&st=o042gyn7&dl=1",
-        "https://www.dropbox.com/scl/fi/2o8nte8hlzyun6hf941bu/el-elevao.mp3?rlkey=cd19i9ho9pkpkw7lnibg8lcon&st=69109tru&dl=1",
-        "https://www.dropbox.com/scl/fi/thass3zhnhfawuwlydli2/la-cumbia-de-la-mariguana.mp3?rlkey=2xbc7pv2uf8y8y30prpkk7bzs&st=ug35odnp&dl=1",
-        "https://www.dropbox.com/scl/fi/r9b50wzcem535aiddcc2h/la-luna-y-la-playa.mp3?rlkey=jwu2wq089vktxqpx9wov0y6ni&st=3bqzbf0q&dl=1",
-        "https://www.dropbox.com/scl/fi/8bu5hhbez298xmie9fz1h/los-colombianas.mp3?rlkey=dgjnrso7d39ropsgolu95pxe4&st=297mf4js&dl=1",
-        "https://www.dropbox.com/scl/fi/78rzfx2tv319g9qkctjfx/si-me-quieres.mp3?rlkey=2tntsm97mh5xfkjeo659mw7y7&st=l4u36vm5&dl=1",
-        "https://www.dropbox.com/scl/fi/dru28l1jb8vudsze7m1vj/sonrieme.mp3?rlkey=rfehdxr5inmllgcefw7j1ezo3&st=z36dan8t&dl=1",
-        "https://www.dropbox.com/scl/fi/yzemuoy4gqoyc6ser1xh7/vengan-a-baila.mp3?rlkey=bzsrj5v6bk2t7jtujz74j34qf&st=855jmf0h&dl=1",
-    ],  
-    [
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
+      ] 
+      ];
 
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
 
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-      "https://www.dropbox.com/scl/fi/folurffff3i3vtyhh0oas/cumbiadejuventud.jpg?rlkey=9j4sj51o6mqw0fquvhmcgrpj1&st=o26fijaf&dl=1",
-    ]
-];
 
-// Disco 10
-
-//
 
 
