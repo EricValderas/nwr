@@ -60,7 +60,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*7);
+          randomScript = Math.floor(Math.random()*8);
 
           
           if(randomScript==0)
@@ -207,6 +207,26 @@ function functionNext(){
                   
                    
                  }
+
+           if(randomScript==7)
+                {
+                    randomNumber = Math.floor(Math.random()*elcorazondelsapoImaginacion[0].length);
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                    title: elcorazondelsapoImaginacion[0][randomNumber],
+                    artist: "Nervous Wreck Radio - Punk",
+                    album: "",
+                    artwork: [{ src: elcorazondelsapoImaginacion[2][randomNumber] }],
+                  
+                  });
+        
+                  
+                  audioElement.src= elcorazondelsapoImaginacion[1][randomNumber];
+                  audioElement.play();
+                  document.title = elcorazondelsapoImaginacion[0][randomNumber];
+                  priceDesc.innerHTML = elcorazondelsapoImaginacion[0][randomNumber];
+                  Portada.src = elcorazondelsapoImaginacion[2][randomNumber];
+                  
+                }
   
             
         }
@@ -691,7 +711,7 @@ const MOB47TillsDor = [
          "Grampa - Front Seat Solidarity",
          "Hot diggety - Front Seat Solidarity",
          "Mouseteeth  - Front Seat Solidarity",
-         
+
          "Selma - Front Seat Solidarity",
          "The argument - Front Seat Solidarity",
          "Trains and cops - Front Seat Solidarity",
@@ -738,6 +758,56 @@ const MOB47TillsDor = [
        
       ] 
       ];
+
+      const elcorazondelsapoImaginacion = [
+        [
+         "Alto y claro - El corazón del sapo",
+         "Circulos de cera - El corazón del sapo",
+         "Campos - El corazón del sapo",
+         "Desnudo rojo - El corazón del sapo",
+         "El globo - El corazón del sapo",
+         "El arbol - El corazón del sapo",
+         "Juan meat for Jeremy - El corazón del sapo",
+         "K.K.K. - El corazón del sapo",
+         "La estatua - El corazón del sapo",
+         "La noche de los cristales rotos - El corazón del sapo",
+         "No me grites - El corazón del sapo",
+         "Stop contol - El corazón del sapo",
+        
+        ],
+        [
+          
+          "https://www.dropbox.com/scl/fi/y5dwspxjai93h9v28bkbn/04-filferro-Alto-y-Claro.mp3?rlkey=njl12whca7641pu4pj9gd4rc9&st=tggdjk5y&dl=1",
+          "https://www.dropbox.com/scl/fi/xl22jp8kivi098prt9ahm/05-filferro-C-rculos-de-Cera.mp3?rlkey=rm6vbj633p5huslhk6jehl27q&st=3wpdy9bv&dl=1",
+          "https://www.dropbox.com/scl/fi/iwn83mdys8g7tz0th8pdz/10-filferro-Campos.mp3?rlkey=kcq2r8ui2a35vgs0k1guf73b3&st=hpsxe1yh&dl=1",
+          "https://www.dropbox.com/scl/fi/h72fa42ga4stywl5fkpc5/01-filferro-Desnudo-Rojo.mp3?rlkey=skimd6ff7x06k1eiinijvucrc&st=q128eynu&dl=1",
+          "https://www.dropbox.com/scl/fi/0m4fm8yerr5klznr201l8/02-filferro-El-Globo.mp3?rlkey=f7weczak17725np2zpi0rwzml&st=jskyi7ii&dl=1",
+          "https://www.dropbox.com/scl/fi/asbwlfnf0mikulqd979pl/12-filferro-El-rbol.mp3?rlkey=ezpedou1i2nud43eraguky64s&st=xfacpuzt&dl=1",
+          "https://www.dropbox.com/scl/fi/8as5n3ep84tr07biwtx96/11-filferro-Juan-Meat-for-Jeremy.mp3?rlkey=2e759c8bci8n8rseiralulb5n&st=y9mb7v0y&dl=1",
+          "https://www.dropbox.com/scl/fi/6w3rzekogtenvr794rjyj/09-filferro-K.K.K..mp3?rlkey=3bhed1voqugw80noaxrisfvbe&st=1i1zbonp&dl=1",
+          "https://www.dropbox.com/scl/fi/tvzo9u5wuut0f8zh6pl5s/06-filferro-La-Estatua.mp3?rlkey=4yu4gqc0qi1t7g56bz3l4ahhs&st=d993eea1&dl=1",
+          "https://www.dropbox.com/scl/fi/q3q57jqlvhiyi1mw6xgio/03-filferro-La-Noche-de-los-Cristales-Rotos.mp3?rlkey=8c5e6kzeiqb9u3pxrtfbdw3s8&st=kq949pzr&dl=1",
+          "https://www.dropbox.com/scl/fi/gjferm9sn81cl7j2xlj1v/08-filferro-No-Me-Grites.mp3?rlkey=232xzfftifwyfepcwu784950k&st=avs16sle&dl=1",
+          "https://www.dropbox.com/scl/fi/ow06yivyffkowjn0kkqza/07-filferro-Stop-Control.mp3?rlkey=boknkr3ddhvl4qwn0uobqrkfb&st=1i404tvt&dl=1",
+        ],
+        [
+
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+        "https://www.dropbox.com/scl/fi/zwnqh4ouzcstjdfs55c4l/elcorazondelsapofuego.jpg?rlkey=e9ssicwbifpq5742qxeywha7h&st=7c5j0ia3&dl=1",
+       
+      ] 
+      ];
+
 
 
 
