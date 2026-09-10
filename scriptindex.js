@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
   loader.style.opacity = '0';
   setTimeout(() => {
     loader.style.display = 'none';
-  }, 10000); // Coincide con la transición de CSS
+  }, 7000); // Coincide con la transición de CSS
 });
 
 

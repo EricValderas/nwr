@@ -31,8 +31,10 @@
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 4s ease;
+  
 }
+
+
 
 
 H5{
@@ -492,6 +494,11 @@ body, html {
   background-color: #000;
  }
 @media screen and (max-width: 570px) {
+
+  #imagen-carga{
+    width: 90%;
+    height: auto;
+  }
 
   #portada{
   width: 100%;
