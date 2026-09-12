@@ -20,7 +20,7 @@
   --borderRad: 2px;
 }
 
-#pantalla-carga {
+#pantalla-carga, #pantalla-cargaw, #pantalla-cargap {
   position: fixed;
   top: 0;
   left: 0;
