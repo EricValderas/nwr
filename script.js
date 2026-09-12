@@ -13,7 +13,7 @@ let Portada = document.getElementById("portada");
 let priceDesc = document.getElementById('price');
 
 window.addEventListener('load', () => {
-  const loader = document.getElementById('pantalla-carga');
+  const loader = document.getElementById('pantalla-cargaw');
   loader.style.opacity = '0';
   setTimeout(() => {
     loader.style.display = 'none';
