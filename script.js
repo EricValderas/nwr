@@ -12,6 +12,14 @@ let kaaosBoolean = false;
 let Portada = document.getElementById("portada");
 let priceDesc = document.getElementById('price');
 
+window.addEventListener('load', () => {
+  const loader = document.getElementById('pantalla-carga');
+  loader.style.opacity = '0';
+  setTimeout(() => {
+    loader.style.display = 'none';
+  }, 100); // Coincide con la transición de CSS
+});
+
 function functionNext(){
   if(musicBego==false){
     if(kaaosBoolean==true){parrillaKM();}
