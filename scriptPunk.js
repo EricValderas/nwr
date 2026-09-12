@@ -248,7 +248,7 @@ function functionNext(){
                     });
           
                     
-                    audioElement.src= stringReplaceUrl;
+                    audioElement.src= otanjodeles[1][randomNumber];
                     audioElement.play();
                     document.title = otanjodeles[0][randomNumber];
                     priceDesc.innerHTML = otanjodeles[0][randomNumber];
