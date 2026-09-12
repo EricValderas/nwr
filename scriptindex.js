@@ -23,6 +23,7 @@ document.getElementById("punkImage10").onclick = function() {window.open("https:
 document.getElementById("punkImage11").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage12").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage13").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
+document.getElementById("punkImage14").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 
 
 

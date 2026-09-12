@@ -68,7 +68,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*8);
+          randomScript = Math.floor(Math.random()*9);
 
           
           if(randomScript==0)
@@ -235,6 +235,26 @@ function functionNext(){
                   Portada.src = elcorazondelsapoImaginacion[2][randomNumber];
                   
                 }
+
+           if(randomScript==8)
+                  {
+                      randomNumber = Math.floor(Math.random()*otanjodeles[0].length);
+                      navigator.mediaSession.metadata = new MediaMetadata({
+                      title: otanjodeles[0][randomNumber],
+                      artist: "Nervous Wreck Radio - Punk",
+                      album: "",
+                      artwork: [{ src: otanjodeles[2][randomNumber] }],
+                    
+                    });
+          
+                    
+                    audioElement.src= stringReplaceUrl;
+                    audioElement.play();
+                    document.title = otanjodeles[0][randomNumber];
+                    priceDesc.innerHTML = otanjodeles[0][randomNumber];
+                    Portada.src = otanjodeles[2][randomNumber];
+            
+                  }
   
             
         }
@@ -815,6 +835,55 @@ const MOB47TillsDor = [
        
       ] 
       ];
+
+      const otanjodeles = [
+        [
+            "Brutalidad policial - Otan",
+            "¿Donde? - Otan",
+            "Es esta mi vida - Otan",
+            "Hablas por la espalda - Otan",
+            "Juventud anarquista - Otan",
+
+            "Politicx de mierda - Otan",
+            "Puto asco - Otan",
+            "Servicio militar - Otan",
+            "Sientate y mira - Otan",
+            "Vamos a acabar con la mierda - Otan",
+
+            "Vivisección - Otan",
+        ],
+        [
+            "https://www.dropbox.com/scl/fi/geygpfh3p6i0uotgm6v5f/Brutalidad-policial-Otan.mp3?rlkey=iz6bsyixa5lhph36jzc8bhua1&st=jhsgawir&dl=1",
+            "https://www.dropbox.com/scl/fi/pynl5c59wz60tog952f79/Donde-Otan.mp3?rlkey=q3uvd3jjlhx9fjsandg8tlvtz&st=tent3z0a&dl=1",
+            "https://www.dropbox.com/scl/fi/n1o7y8x4ft1ql2ur7r7qu/Es-esta-mi-vida-Otan.mp3?rlkey=dbfia9exnsyq0857ftyerqj2t&st=uw8lq170&dl=1",
+            "https://www.dropbox.com/scl/fi/g5exspfah305e9cahm6sj/Hablas-por-la-espalda-Otan.mp3?rlkey=c74c5ozh2upu9sp558gor19sv&st=qzq0bd8r&dl=1",
+            "https://www.dropbox.com/scl/fi/8j3j51t7mrivroygk7krh/Juventud-anarquista-Otan.mp3?rlkey=amp6vjpknggofycnft41padme&st=70kk3zil&dl=1",
+
+            "https://www.dropbox.com/scl/fi/w10dykizv9mvuxow5txc3/Politicx-de-mierda-Otan.mp3?rlkey=1bciahmzdu74jyolpg8hpn6f5&st=wz2kzsf5&dl=1",
+            "https://www.dropbox.com/scl/fi/mmjg10gzka8moca8hsw2v/Puto-asco-Otan.mp3?rlkey=b2cs0l6a9axqiww0niw5rcepv&st=wgx64smt&dl=1",
+            "https://www.dropbox.com/scl/fi/icmv8bwf42te6hmwkzizt/Servicio-Militar-Otan.mp3?rlkey=31xp160ivhk69ksp6ggd7exu1&st=l74k3l9e&dl=1",
+            "https://www.dropbox.com/scl/fi/tbninw0exlfwliqexj89l/Sientate-y-mira-Otan.mp3?rlkey=c5ognb3nen9qhj713mfdayqft&st=j9ry92xw&dl=1",
+            "https://www.dropbox.com/scl/fi/c6a06j7m1pheam07u2p7x/Vamos-a-acabar-con-la-mierda-Otan.mp3?rlkey=j6u44fynqfxvhkxf9m84fzw2j&st=vtdkpkgk&dl=1",
+
+            "https://www.dropbox.com/scl/fi/l8twyxsqns3ft7f2268y3/Vivisecci-n.mp3?rlkey=xldxd1cxipbk3g3mntge7f5gm&st=ybbk6hm2&dl=1",
+        ],
+        [
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+
+            "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
+                
+        ],
+    ]
 
 
 
