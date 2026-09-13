@@ -68,7 +68,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*12);
+          randomScript = Math.floor(Math.random()*13);
 
           
           if(randomScript==0)
@@ -297,6 +297,25 @@ function functionNext(){
            if(randomScript==11)
                   {
                     arrayTitle=txacoli,
+                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                    title: arrayTitle[0][randomNumber],
+                    artist: "Nervous Wreck Radio - Punk",
+                    album: "",
+                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
+                  });
+          
+                    audioElement.src= arrayTitle[1][randomNumber];
+                    audioElement.play();
+                    document.title = arrayTitle[0][randomNumber];
+                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
+                    Portada.src = arrayTitle[2][randomNumber];
+          
+                  }
+
+           if(randomScript==12)
+                  {
+                    arrayTitle=activemindstt,
                     randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
                     navigator.mediaSession.metadata = new MediaMetadata({
                     title: arrayTitle[0][randomNumber],
@@ -1077,6 +1096,55 @@ const txacoli = [
         "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
     ]
     ];
+
+    const activemindstt = [
+        [
+         "1st Of October, 2017 - Active Minds",
+         "Terrorvision - Active Minds",
+         "The price of exporting excellence - Active Minds",
+         "Titanic - Active Minds",
+         "The man who fell to earth - Active Minds",
+         "Some fucker on a horse - Active Minds",
+         "Fear of a secular planet - Active Minds",
+         "We need to talk about Saudi Arabia - Active Minds",
+         "Beware The Fuckwitted, Egotistical Tycoons - Active Minds",
+         "Not my reality - Active Minds",
+         "Shamima - Active Minds",
+         
+         
+        
+      
+        ],[
+         "https://www.dropbox.com/scl/fi/opgdiurnixhqjz5f0u5ma/01-Active-Minds-1st-Of-October-2017.mp3?rlkey=vh7jrkh17yblo3bn3d8r1z2j6&st=1a20wso1&dl=1",
+         "https://www.dropbox.com/scl/fi/275o4fkc6s6afms3a3xvy/02-Active-Minds-Terrorvision.mp3?rlkey=3c77m0bioo4zqrnb61w02igrp&st=61s41z2b&dl=1",
+         "https://www.dropbox.com/scl/fi/egsguqcr476h6g6d8mecg/03-Active-Minds-The-Price-Of-Sporting-Excellence.mp3?rlkey=jg4wpeh6harltoed1xszmcs2j&st=71eqqbsx&dl=1",
+         "https://www.dropbox.com/scl/fi/nj2pc1z4s69rw6nebtiur/04-Active-Minds-Titanic.mp3?rlkey=ljxos1k1229s8m2ieps9lwbjo&st=cxj4l8og&dl=1",
+         "https://www.dropbox.com/scl/fi/vw2nnnshkw94sj18fou8e/05-Active-Minds-The-Man-Who-Fell-To-Earth.mp3?rlkey=dpotdhosq12lapfnlrv7nkaca&st=epzmind1&dl=1",
+         "https://www.dropbox.com/scl/fi/eleja6d7rd5okjxrt36vt/06-Active-Minds-Some-Fucker-On-A-Horse.mp3?rlkey=2lylsy0e7l79blv2cxy67pcg6&st=yo54395p&dl=1",
+         "https://www.dropbox.com/scl/fi/tr2tnveoefq32yn575kxy/07-Active-Minds-Fear-Of-A-Secular-Planet.mp3?rlkey=nas13pziwyo55v250k0h9hbqg&st=q10ap9k0&dl=1",
+         "https://www.dropbox.com/scl/fi/yeu1evr504foeypcngr1g/08-Active-Minds-We-Need-To-Talk-About-Saudi-Arabia.mp3?rlkey=tz62hqw7bofegqd0iznpb0mwh&st=phhwllm1&dl=1",
+         "https://www.dropbox.com/scl/fi/zjyjsecxfg251bkoziy1z/09-Active-Minds-Beware-The-Fuckwitted-Egotistical-Tycoons.mp3?rlkey=ji6snu3iay4i1tu7nsbh03762&st=nar4qfm1&dl=1",
+         "https://www.dropbox.com/scl/fi/57jxs3dyncj89x0pgee0e/10-Active-Minds-Not-My-Reality.mp3?rlkey=7eki5cts7dfv9qkifgmpvvrj4&st=ndvfi96i&dl=1",
+         "https://www.dropbox.com/scl/fi/8px69spc5g32fdtjkco7r/11-Active-Minds-Shamima.mp3?rlkey=adx8hyau18l5marill5yy24ql&st=hei73tjm&dl=1",
+      ]  
+      ,[
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+
+       "https://www.dropbox.com/scl/fi/bkks95ukbzt9tm8pc4yk9/activemindsthingsthat.jpg?rlkey=bwdoubyj2j1mhz4avegyycx4a&st=ywhdem1x&dl=1",
+       
+       
+      ] 
+      ];
 
 
 
