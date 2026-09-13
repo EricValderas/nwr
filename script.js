@@ -212,6 +212,8 @@ function functionNext(){
                     Portada.src = arrayTitle[2][randomNumber];
           
                   }
+
+          
   
             
         }

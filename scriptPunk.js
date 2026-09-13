@@ -68,7 +68,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*10);
+          randomScript = Math.floor(Math.random()*12);
 
           
           if(randomScript==0)
@@ -259,6 +259,44 @@ function functionNext(){
           if(randomScript==9)
                   {
                     arrayTitle=pussywhippedbikinikill,
+                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                    title: arrayTitle[0][randomNumber],
+                    artist: "Nervous Wreck Radio - Punk",
+                    album: "",
+                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
+                  });
+          
+                    audioElement.src= arrayTitle[1][randomNumber];
+                    audioElement.play();
+                    document.title = arrayTitle[0][randomNumber];
+                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
+                    Portada.src = arrayTitle[2][randomNumber];
+          
+                  }
+
+           if(randomScript==10)
+                  {
+                    arrayTitle=guerrasocial,
+                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                    title: arrayTitle[0][randomNumber],
+                    artist: "Nervous Wreck Radio - Punk",
+                    album: "",
+                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
+                  });
+          
+                    audioElement.src= arrayTitle[1][randomNumber];
+                    audioElement.play();
+                    document.title = arrayTitle[0][randomNumber];
+                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
+                    Portada.src = arrayTitle[2][randomNumber];
+          
+                  }
+
+           if(randomScript==11)
+                  {
+                    arrayTitle=txacoli,
                     randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
                     navigator.mediaSession.metadata = new MediaMetadata({
                     title: arrayTitle[0][randomNumber],
@@ -956,6 +994,89 @@ const MOB47TillsDor = [
         
       ] 
       ];
+
+      const guerrasocial = [
+    [
+        "Barrios - Necesidad de Luchar",
+        "Contrarevolución - Necesidad de Luchar",
+        "Ego versus Alium - Necesidad de Luchar",
+        "El camino del Progreso - Necesidad de Luchar",
+        "Estructurando mentes - Necesidad de Luchar",
+
+        "La guerra social es inevitable - Necesidad de Luchar",
+        "Miradas de cristal - Necesidad de Luchar",
+        "Muerte accidental de un esclavo - Necesidad de Luchar",
+        "Organiza tu rabia - Necesidad de Luchar",
+        "Razones de estado - Necesidad de Luchar",
+
+        "Sociedad asalariada - Necesidad de Luchar",
+        "Subir y ganar - Necesidad de Luchar",
+       
+    ],
+    [
+        "https://www.dropbox.com/scl/fi/e7yh3l2g56lt716h916ev/11-Necesidad-de-luchar-Barrios.mp3?rlkey=2xluu7kv533tiaqxfjuzpyprw&st=vyprbjo0&dl=1",
+        "https://www.dropbox.com/scl/fi/fqwp1gq31eqhmjiy5p5im/03-Necesidad-de-luchar-Contrarrevoluci-n-no-olvidamos.mp3?rlkey=536igv1ofpc3v7q8r0624av92&st=wd86evup&dl=1",
+        "https://www.dropbox.com/scl/fi/ncrfyn8503fmrfj0rsrb2/08-Necesidad-de-luchar-Ego-versus-alium.mp3?rlkey=pddqzxbuisttip6bbqmpzbuhk&st=21qz0bef&dl=1",
+        "https://www.dropbox.com/scl/fi/nvtf7t2zblylom069erda/12-Necesidad-de-luchar-El-camino-del-progreso.mp3?rlkey=x3y0w20m1j9ilesoif7iv9hsl&st=3qmovk94&dl=1",
+        "https://www.dropbox.com/scl/fi/0r28ymw0pwmezq0urbh4y/07-Necesidad-de-luchar-Estructurando-mentes.mp3?rlkey=af00blkjpy204r50mggysseu1&st=80godi77&dl=1",
+        "https://www.dropbox.com/scl/fi/1v3k9q2m9kvccqsqlmkc8/01-Necesidad-de-luchar-La-guerra-social-es-inevitable.mp3?rlkey=3m6qev4zmracism5vqzhd8sv8&st=35ta4461&dl=1",
+        "https://www.dropbox.com/scl/fi/4yh68pyysc81fbb92v7k3/02-Necesidad-de-luchar-Miradas-de-cristal.mp3?rlkey=mqbqbdp87m66twju0wqvt8hec&st=ac4wsis3&dl=1",  
+        "https://www.dropbox.com/scl/fi/1hsepywb7n5n8vpfioy90/10-Necesidad-de-luchar-Muerte-accidental-de-un-esclavo.mp3?rlkey=tazsmqatapzcp05q0bo2xv141&st=r7yw8szr&dl=1",
+        "https://www.dropbox.com/scl/fi/c963n1lu91z1ijtsidmt3/06-Necesidad-de-luchar-Organiza-tu-rabia.mp3?rlkey=coclxgugbazib18gmu5ozgjx9&st=2rw3n9xj&dl=1",    
+        "https://www.dropbox.com/scl/fi/jnthka0f5urio0a4lg1fn/09-Necesidad-de-luchar-Razones-de-estado.mp3?rlkey=4g5fi7zl4k7tsqgnub7j53c6z&st=ktbgm8u8&dl=1",  
+        "https://www.dropbox.com/scl/fi/oagqmh17nt7y7dkbh5q58/04-Necesidad-de-luchar-Sociedad-asalariada.mp3?rlkey=6hlpm550ht66gikrbuuobn0rp&st=37cadu4e&dl=1",
+        "https://www.dropbox.com/scl/fi/to0212k4kwn3vqvugy1di/05-Necesidad-de-luchar-Subir-y-ganar.mp3?rlkey=rcnnfqk9stskrdxtqoxi3i2sm&st=fkm8ttpk&dl=1",
+    ],  
+    [
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+        "https://www.dropbox.com/scl/fi/j9wfx5gmpdmmu6ou68f3e/laguerrasocialesinevitable.jpg?rlkey=722lurnhyl4j8ayimqcx7d1qa&st=7m4vg01s&dl=1",
+
+        
+    ]
+];
+
+const txacoli = [
+    [
+        "Bombas - Txacoli Conflict",
+        "Derechos humanos - Txacoli Conflict",
+        "Silencio (Instro) - Txacoli Conflict",
+        "Fútbol - Txacoli Conflict",
+        "Banderas - Txacoli Conflict",
+        "La radio comercial (Shampain) - Txacoli Conflict",
+
+       
+       
+    ],
+    [
+        "https://www.dropbox.com/scl/fi/yamvd6b2rp2lvfma62u16/01-Txakoly-Conflict-Bombas.mp3?rlkey=0loe6ekl7sy23lbn5otyyt1me&st=dkxy2l70&dl=1",
+        "https://www.dropbox.com/scl/fi/6mc1n3a3alaslgy9xgfzj/02-Txakoly-Conflict-Derechos-humanos.mp3?rlkey=aflbgr4twsyxohaeghz2y0g5c&st=605kh6yt&dl=1",
+        "https://www.dropbox.com/scl/fi/2p2foo39ls4ee2gfdw3ot/03-Txakoly-Conflict-Silencio-Instrumental.mp3?rlkey=spz7ayfz4hjbgn1m45s58zovh&st=bvr8wtsr&dl=1",
+        "https://www.dropbox.com/scl/fi/0aldhzcksqeo17j74ibw3/04-Txakoly-Conflict-F-tbol.mp3?rlkey=nbo2onk0qbqz1luptgy58dcph&st=udpucgvw&dl=1",
+        "https://www.dropbox.com/scl/fi/kjv86ekbgk6uawhug3vux/05-Txakoly-Conflict-Banderas.mp3?rlkey=jacskdeaw0hdnfb4wtakraw3b&st=ki2adsz1&dl=1",
+        "https://www.dropbox.com/scl/fi/8lqp7rn57poeu7wwc0abw/06-Txakoly-Conflict-La-Radio-Comercial-Shampain.mp3?rlkey=tsiyh9324ogtnuu040lulrqvy&st=tdrn49tq&dl=1",
+        
+    ],
+    [
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+        "https://www.dropbox.com/scl/fi/m72u2gdac28i33fb6kcx5/txacoli.jpg?rlkey=viukvt044g1seylz7rocap1gv&st=dp8tqcbk&dl=1",
+    ]
+    ];
 
 
 

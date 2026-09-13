@@ -25,6 +25,8 @@ document.getElementById("punkImage12").onclick = function() {window.open("https:
 document.getElementById("punkImage13").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage14").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage15").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
+document.getElementById("punkImage16").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
+document.getElementById("punkImage17").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 
 
 const audioElement = document.querySelector("audio");
