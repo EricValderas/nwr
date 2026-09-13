@@ -68,7 +68,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*9);
+          randomScript = Math.floor(Math.random()*10);
 
           
           if(randomScript==0)
@@ -254,6 +254,25 @@ function functionNext(){
                     priceDesc.innerHTML = otanjodeles[0][randomNumber];
                     Portada.src = otanjodeles[2][randomNumber];
             
+                  }
+
+          if(randomScript==9)
+                  {
+                    arrayTitle=pussywhippedbikinikill,
+                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                    title: arrayTitle[0][randomNumber],
+                    artist: "Nervous Wreck Radio - Punk",
+                    album: "",
+                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
+                  });
+          
+                    audioElement.src= arrayTitle[1][randomNumber];
+                    audioElement.play();
+                    document.title = arrayTitle[0][randomNumber];
+                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
+                    Portada.src = arrayTitle[2][randomNumber];
+          
                   }
   
             
@@ -883,7 +902,60 @@ const MOB47TillsDor = [
             "https://www.dropbox.com/scl/fi/lgxh9nass5j9xwsqe1n4h/otanjodeles.jpg?rlkey=9tf6fgtf1xfmjmlsi79u0r68n&st=zvdddah2&dl=1",
                 
         ],
-    ]
+    ];
+
+    const pussywhippedbikinikill = [
+        [
+         "Alien she - Bikini kill",
+         "Blood one - Bikini kill",
+         "For Tammy Rae - Bikini kill",
+         "Hamster baby - Bikini kill",
+         "Lil red - Bikini kill",
+
+         "Magnet - Bikini kill",
+         "Rebel girl - Bikini kill",
+         "Speed heart - Bikini kill",
+         "Star Bellied Boy - Bikini kill",
+         "Star fish - Bikini kill",
+         
+         "Sugar - Bikini kill",
+         "Tell Me So - Bikini kill",
+        
+      
+        ],[
+          "https://www.dropbox.com/scl/fi/rcueb5rwh2gqq5rev8d1v/Alien-She_spotdown.org.mp3?rlkey=wy4s9ldj681bb6zvg8q431htu&st=vwiwv680&dl=1",
+          "https://www.dropbox.com/scl/fi/pyntlyyilyeuo62z06k5f/Blood-One_spotdown.org.mp3?rlkey=h4qkz22keg8t4v557dtj6vx2u&st=dfuqloln&dl=1",
+          "https://www.dropbox.com/scl/fi/icxn1c2sdee3xggyotbvv/For-Tammy-Rae_spotdown.org.mp3?rlkey=2rjrgf4m0tnb5wo5zk2rremn6&st=v2g1ag6z&dl=1",
+          "https://www.dropbox.com/scl/fi/y7vfy34guarznszln456x/Hamster-Baby_spotdown.org.mp3?rlkey=rdl7h1oqkpc3r8yxs77htobrb&st=355zfyox&dl=1",
+          "https://www.dropbox.com/scl/fi/3uix20dloi7poffwqd80n/Lil-Red_spotdown.org.mp3?rlkey=hpq31ns079iz9n675lmkb5lzb&st=crfl6nsd&dl=1",
+
+          "https://www.dropbox.com/scl/fi/xv3jxd45pkvrtybcfhts0/Magnet_spotdown.org.mp3?rlkey=q1w6h7q6wq1kcp3a0rjog6ti8&st=3s7tljjq&dl=1",
+          "https://www.dropbox.com/scl/fi/qb7fwsig714r90pczy6zc/Rebel-Girl_spotdown.org.mp3?rlkey=5ht1119yxpq63bsr7xsy6gt25&st=c72xym07&dl=1",
+          "https://www.dropbox.com/scl/fi/sh2cggwsed8bdx5l61mhm/Speed-Heart_spotdown.org.mp3?rlkey=ufwe96sanolh1s51p6rx8u6ob&st=b1wod6l7&dl=1",
+          "https://www.dropbox.com/scl/fi/4aq1u8wod8kau3jwqjhzl/Star-Bellied-Boy_spotdown.org.mp3?rlkey=5r51f8iax0us1ogtx8qz72vk4&st=whs3utzr&dl=1",
+          "https://www.dropbox.com/scl/fi/s7urvji9wld7voqli48t6/Star-Fish_spotdown.org.mp3?rlkey=w0anaf6jbmwac5ebdzdmbxo6k&st=drltra9k&dl=1",
+
+          "https://www.dropbox.com/scl/fi/a04xrhazy4zsqir3toc81/Sugar_spotdown.org.mp3?rlkey=xc5tnpyzkl9eo9w0mehbqai3x&st=3s93fj25&dl=1",
+          "https://www.dropbox.com/scl/fi/mlzn4otonzh0g7du6myb9/Tell-Me-So_spotdown.org.mp3?rlkey=cflvae79l209zjbacp16bqj8o&st=qttace48&dl=1",
+      ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        "https://www.dropbox.com/scl/fi/yrj7w9hmr2vhvf2aa8f2d/pussywhippedbikinikill.jpg?rlkey=3b833u78jph5nxd9c8zcevx0s&st=7a4hifhh&dl=1",
+        
+      ] 
+      ];
 
 
 
