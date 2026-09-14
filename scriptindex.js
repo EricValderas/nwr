@@ -28,6 +28,8 @@ document.getElementById("punkImage15").onclick = function() {window.open("https:
 document.getElementById("punkImage16").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 document.getElementById("punkImage17").onclick = function() {window.open("https://ericvalderas.github.io/nwr/punk.html","_self");  }; 
 
+document.getElementById("garageImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/garage.html","_self");  }; 
+
 
 const audioElement = document.querySelector("audio");
 var song = document.getElementById("myAudio");

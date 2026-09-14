@@ -11,6 +11,9 @@ let musicBego = false;
 let kaaosBoolean = false;
 let Portada = document.getElementById("portada");
 let priceDesc = document.getElementById('price');
+let numSecuencia = 0;
+let numSecuenciaPunk = 0;
+
 
 window.addEventListener('load', () => {
   const loader = document.getElementById('pantalla-cargap');
@@ -20,36 +23,17 @@ window.addEventListener('load', () => {
   }, 100); // Coincide con la transición de CSS
 });
 
+
 function functionNext(){
-  if(musicBego==false){
-    if(kaaosBoolean==true){parrillaKM();}
-    if(kaaosBoolean==false){parrilla();}
-  }
-  if(musicBego==true){parrillaBego();}
+
+    BluesFunction();
   
-
-  if ("mediaSession" in navigator) {
-       navigator.mediaSession.setActionHandler("nexttrack", () => {
-
-        if(musicBego==false){
-          if(kaaosBoolean==true){parrillaKM();}
-          if(kaaosBoolean==false){parrilla();}
-        }
-        if(musicBego==true){parrillaBego();}
-  
-  });
-  }
-
   audioElement.addEventListener(
         "ended",
         () => 
       {
-        if(musicBego==false){
-          if(kaaosBoolean==true){parrillaKM();}
-          if(kaaosBoolean==false){parrilla();}
-        }
-        if(musicBego==true){parrillaBego();}
         
+        BluesFunction();
       
       },
         
@@ -58,17 +42,12 @@ function functionNext(){
 
  }
 
-  function parrillaKM(){};
-  function parrillaBego(){};
-
-  function parrilla(){
-    BluesFunction();
-  };
-
 
    function BluesFunction(){
   
           randomScript = Math.floor(Math.random()*13);
+
+          
 
           
           if(randomScript==0)

@@ -12,6 +12,7 @@ let kaaosBoolean = false;
 let Portada = document.getElementById("portada");
 let priceDesc = document.getElementById('price');
 
+
 window.addEventListener('load', () => {
   const loader = document.getElementById('pantalla-cargaw');
   loader.style.opacity = '0';
@@ -21,21 +22,13 @@ window.addEventListener('load', () => {
 });
 
 function functionNext(){
-  if(musicBego==false){
-    if(kaaosBoolean==true){parrillaKM();}
-    if(kaaosBoolean==false){parrilla();}
-  }
-  if(musicBego==true){parrillaBego();}
   
+  BluesFunction();
 
   if ("mediaSession" in navigator) {
        navigator.mediaSession.setActionHandler("nexttrack", () => {
 
-        if(musicBego==false){
-          if(kaaosBoolean==true){parrillaKM();}
-          if(kaaosBoolean==false){parrilla();}
-        }
-        if(musicBego==true){parrillaBego();}
+        BluesFunction();
   
   });
   }
@@ -44,13 +37,7 @@ function functionNext(){
         "ended",
         () => 
       {
-        if(musicBego==false){
-          if(kaaosBoolean==true){parrillaKM();}
-          if(kaaosBoolean==false){parrilla();}
-        }
-        if(musicBego==true){parrillaBego();}
-        
-      
+        BluesFunction();
       },
         
       );
