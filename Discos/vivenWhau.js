@@ -1,0 +1,42 @@
+export const vivenWhau = [
+    [
+        "Bli blu bla - Wau y los Arrrghs!!!",
+        "Copa, raya, paliza - Wau y los Arrrghs!!!",
+        "Delincuente - Wau y los Arrrghs!!!",
+        "Dicen - Wau y los Arrrghs!!!",
+        "Help me find myself - Wau y los Arrrghs!!!",
+        "It´s great - Wau y los Arrrghs!!!",
+        "La cueva - Wau y los Arrrghs!!!",
+        "No mientas más - Wau y los Arrrghs!!!",
+        "Piedras - Wau y los Arrrghs!!!",
+        "Viva Link Wray - Wau y los Arrrghs!!!",
+        "¿Dónde están? - Wau y los Arrrghs!!!",
+    ],
+    [
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/bli-blu-bla.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/copa-raya-paliza.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/delincuente.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/dicen.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/help-me-find-myself.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/it-s-great.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/la-cueva.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/no-mientas-m%C3%A1s.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/piedras.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/viva-link-wray.mp3",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/P/%C2%A1%C2%A1%C2%A1Viven%21%21%21%20Wau%20y%20los%20Arrrghs%21%21%21/%C2%BFd%C3%B3nde-est%C3%A1n.mp3"
+
+    ],
+    [
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+        "sftp://su35864@access-5018990099.webspace-host.com/Web/Img/vivenwuah.jpg",
+    ],
+]
