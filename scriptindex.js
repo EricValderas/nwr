@@ -34,6 +34,7 @@ document.getElementById("garageImage3").onclick = function() {window.open("https
 document.getElementById("garageImage4").onclick = function() {window.open("https://ericvalderas.github.io/nwr/garage.html","_self");  }; 
 
 document.getElementById("bluesImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/blues.html","_self");  }; 
+document.getElementById("bluesImage2").onclick = function() {window.open("https://ericvalderas.github.io/nwr/blues.html","_self");  }; 
 
 
 const audioElement = document.querySelector("audio");

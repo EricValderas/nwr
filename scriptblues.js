@@ -48,6 +48,7 @@ function functionNext(){
   
           randomScript = Math.floor(Math.random()*4);
           if(randomScript==0){arrayTitle = bobandlollipops};
+          if(randomScript==1){arrayTitle=jlhookerwhiskey}
           
           
           
@@ -113,4 +114,67 @@ function functionNext(){
      
     ]
 ];
+
+ const jlhookerwhiskey = [
+        [
+         "Boom boom - John Lee Hooker",
+         "Boogie chillun’ - John Lee Hooker",
+         "Dimples - John Lee Hooker",
+         "I´m in the mood  - John Lee Hooker",
+         "I love you honey  - John Lee Hooker",
+         "Whiskey and wimmen  - John Lee Hooker",
+         "I need some money  - John Lee Hooker",
+         "Grinder man  - John Lee Hooker",
+
+         "I'm going upstairs - John Lee Hooker",
+         "Big legs, tight skirt - John Lee Hooker",
+         "No more doggin - John Lee Hooker",
+         "No shoes - John Lee Hooker",
+         "Crawlin´ king snake - John Lee Hooker",
+         "Frisco blues - John Lee Hooker",
+         "It serves it right - John Lee Hooker",
+         "Time is marching - John Lee Hooker",
+        
+        ],[
+          "https://www.dropbox.com/scl/fi/44qt3c21qsx4lhnrtxbza/01-John-Lee-Hooker-Boom-Boom.mp3?rlkey=1ae3b7nlkh3ijrpoi4t2v8wlh&st=ewzm209h&dl=1",
+          "https://www.dropbox.com/scl/fi/0ru759c7ghhob1cxebgpb/02-John-Lee-Hooker-Boogie-Chillun.mp3?rlkey=kuf4d7ba4j9br7s9z6k7o2h91&st=ewrfzx7w&dl=1",
+          "https://www.dropbox.com/scl/fi/82jmb7iaaxbnlbh3gcm9c/03-John-Lee-Hooker-Dimples.mp3?rlkey=s59llbximc5iptxorecawit5f&st=glnp988w&dl=1",
+          "https://www.dropbox.com/scl/fi/5ynwrxeur89u5kk7ebxlr/04-John-Lee-Hooker-I-m-In-The-Mood.mp3?rlkey=yw5swy345v8yaru0www0mgwiq&st=obibxldc&dl=1",
+          "https://www.dropbox.com/scl/fi/1e8qbzfuipih7bcq4myrf/05-John-Lee-Hooker-I-Love-You-Honey.mp3?rlkey=i98uq9sp0ypdgd538b9k1qdin&st=5kvva6nl&dl=1",
+          "https://www.dropbox.com/scl/fi/aoqvqzioanf5lh23ejcr8/06-John-Lee-Hooker-Whiskey-And-Wimmen.mp3?rlkey=47cy72dq46lbe2ujq70mowpef&st=b6imaa5s&dl=1",
+          "https://www.dropbox.com/scl/fi/i8ladlj7avrge7r3zr1e5/07-John-Lee-Hooker-I-Need-Some-Money.mp3?rlkey=cwkvg8qv8v7h1we4vkbw4qzrk&st=igjsepkb&dl=1",
+          "https://www.dropbox.com/scl/fi/phdufleye45lnczndaljp/08-John-Lee-Hooker-Grinder-Man.mp3?rlkey=11lycd4enqscow4vtqwp14xlw&st=29f8i12i&dl=1",
+
+          "https://www.dropbox.com/scl/fi/taochd9o3s9i2omq6k2tl/09-John-Lee-Hooker-I-m-Going-Upstairs.mp3?rlkey=p46j4el9gt0gxar1ycdhojtcy&st=biluf11a&dl=1",
+          "https://www.dropbox.com/scl/fi/gl733uw348sl74wikarft/10-John-Lee-Hooker-Big-Legs-Tight-Skirt.mp3?rlkey=j4bc42isdutoil8jsrs79dgx0&st=7nc779uk&dl=1",
+          "https://www.dropbox.com/scl/fi/wq40gggq3ka7pgjj8y2fi/11-John-Lee-Hooker-No-More-Doggin.mp3?rlkey=yqs0c58kqbsu3tg7f4n1ib3bt&st=xwd93sjt&dl=1",
+          "https://www.dropbox.com/scl/fi/lu1633cerh2gt9xa25kui/12-John-Lee-Hooker-No-Shoes.mp3?rlkey=7e3u1uxez6s0fxn421elgudrq&st=vqqlx87i&dl=1",
+          "https://www.dropbox.com/scl/fi/hl1h50uznqtptbql0u5l8/13-John-Lee-Hooker-Crawlin-King-Snake.mp3?rlkey=k5h0kaftuicis7rcmikf303nn&st=0ovpm08w&dl=1",
+          "https://www.dropbox.com/scl/fi/ic6bh2nxpt0d1ns87yvq9/14-John-Lee-Hooker-Frisco-Blues.mp3?rlkey=tcjtsrm257ybtq507blklh2m4&st=3tuj2pvl&dl=1",
+          "https://www.dropbox.com/scl/fi/kqdr0rn1umvi5w6ksq6wc/15-John-Lee-Hooker-It-Serves-Me-Right.mp3?rlkey=z815ov2w8zojkwgxqgk054zno&st=0mru6ofd&dl=1",
+          "https://www.dropbox.com/scl/fi/r7mxepqitosuoozi2aep7/16-John-Lee-Hooker-Time-Is-Marching.mp3?rlkey=p3c55wlc8l3n65zzqgiicm481&st=dxstt3ys&dl=1",
+          
+        ]
+      ,[
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        "https://www.dropbox.com/scl/fi/ciaj1x7hikmpjm4qs3fw2/jlhookerwhiskey.jpg?rlkey=0uqde3o9nfodxurtp8hkprzcw&st=1hz6yx1u&dl=1",
+        
+       
+      ] 
+      ];
       
