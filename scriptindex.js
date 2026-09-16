@@ -30,6 +30,7 @@ document.getElementById("punkImage17").onclick = function() {window.open("https:
 
 document.getElementById("garageImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/garage.html","_self");  }; 
 document.getElementById("garageImage2").onclick = function() {window.open("https://ericvalderas.github.io/nwr/garage.html","_self");  }; 
+document.getElementById("garageImage3").onclick = function() {window.open("https://ericvalderas.github.io/nwr/garage.html","_self");  }; 
 
 
 const audioElement = document.querySelector("audio");
