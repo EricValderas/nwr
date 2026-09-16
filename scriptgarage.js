@@ -46,12 +46,14 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*3);
-
+          randomScript = Math.floor(Math.random()*4);
+          if(randomScript==0){arrayTitle = buskingProblems};
+          if(randomScript==1){arrayTitle = vivenWhau};
+          if(randomScript==2){arrayTitle = theratsdesperatered};
+          if(randomScript==3){arrayTitle = osees};
           
-          if(randomScript==0)
-                  {
-                    arrayTitle = buskingProblems,
+          
+                    
                     randomNumber = Math.floor(Math.random()*arrayTitle[0].length);
                     navigator.mediaSession.metadata = new MediaMetadata({
                     title: arrayTitle[0][randomNumber],
@@ -65,48 +67,6 @@ function functionNext(){
                     document.title = arrayTitle[0][randomNumber];
                     priceDesc.innerHTML = arrayTitle[0][randomNumber];
                     Portada.src = arrayTitle[2][randomNumber];
-            
-          
-                }
-          if(randomScript==1)
-                  {
-                    arrayTitle=vivenWhau,
-                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length)
-                    navigator.mediaSession.metadata = new MediaMetadata({
-                    title: arrayTitle[0][randomNumber],
-                    artist: "Nervous Wreck Radio - Garage",
-                    album: "",
-                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
-                  });
-          
-                    audioElement.src= arrayTitle[1][randomNumber];
-                    audioElement.play();
-                    document.title = arrayTitle[0][randomNumber];
-                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
-                    Portada.src = arrayTitle[2][randomNumber];
-          
-                  }
-
-          if(randomScript==2)
-                  {
-                    arrayTitle=theratsdesperatered,
-                    randomNumber = Math.floor(Math.random()*arrayTitle[0].length)
-                    navigator.mediaSession.metadata = new MediaMetadata({
-                    title: arrayTitle[0][randomNumber],
-                    artist: "Nervous Wreck Radio - Garage",
-                    album: "",
-                    artwork: [{ src: arrayTitle[2][randomNumber] }],  
-                  });
-          
-                    audioElement.src= arrayTitle[1][randomNumber];
-                    audioElement.play();
-                    document.title = arrayTitle[0][randomNumber];
-                    priceDesc.innerHTML = arrayTitle[0][randomNumber];
-                    Portada.src = arrayTitle[2][randomNumber];
-          
-                  }
-          
-
             
         }
 
@@ -240,3 +200,27 @@ const theratsdesperatered = [
             "https://www.dropbox.com/scl/fi/szn1kmq61uds0g2rmnihq/inadesperateredtherats.jpg?rlkey=ibsp1diiqpuaztxw95p471raf&st=amcufp7x&dl=1",
         ],
 ];
+
+ const osees = [
+        [
+            "Off course - Osees",
+            "Hecate´s reflection is a trick - Osees",
+            "The trick - Osees",
+            "The brute on his knees - Osees",
+        ],
+        [
+            "https://www.dropbox.com/scl/fi/1dahqa3rqt0sbrzvtwa5o/01-Osees-OFF-COURSE.mp3?rlkey=kqfip9ica1f07qtwogc1pqr9q&st=ou3yhbah&dl=1",
+            "https://www.dropbox.com/scl/fi/mh3gobowbfv5oh8u2s7gg/02-Osees-HECATE-S-REFLECTION-IS-A-TRICK.mp3?rlkey=m60oqx85ypgud3ipsa4dq4ced&st=t6gg1qsd&dl=1",
+            "https://www.dropbox.com/scl/fi/7krsxtu4769n58q09pu39/03-Osees-THE-TRICK.mp3?rlkey=k0z3sqw9sja2f8pw3h15tx0p2&st=nm667qlj&dl=1",
+            "https://www.dropbox.com/scl/fi/l1vul8ai5q9omy9axaqqc/05-Osees-THE-BRUTE-ON-HIS-KNEES.mp3?rlkey=ux9l3r1letwttz1x2kabxrmho&st=3mbsucu9&dl=1",
+        ],
+        [
+
+            "https://www.dropbox.com/scl/fi/ys3wnbu9k9gorw9f4v1s9/osees.jpg?rlkey=ijg71kpc3ckrzyfg23cchst0x&st=pb18jmua&dl=1",
+            "https://www.dropbox.com/scl/fi/ys3wnbu9k9gorw9f4v1s9/osees.jpg?rlkey=ijg71kpc3ckrzyfg23cchst0x&st=pb18jmua&dl=1",
+            "https://www.dropbox.com/scl/fi/ys3wnbu9k9gorw9f4v1s9/osees.jpg?rlkey=ijg71kpc3ckrzyfg23cchst0x&st=pb18jmua&dl=1",
+            "https://www.dropbox.com/scl/fi/ys3wnbu9k9gorw9f4v1s9/osees.jpg?rlkey=ijg71kpc3ckrzyfg23cchst0x&st=pb18jmua&dl=1",
+      
+       
+      ] 
+      ];
