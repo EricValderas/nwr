@@ -1,4 +1,4 @@
-
+document.getElementById("allImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/all.html","_self");  };  
 
 document.getElementById("worldImage1").onclick = function() {window.open("https://ericvalderas.github.io/nwr/world.html","_self");  };  
 document.getElementById("worldImage2").onclick = function() {window.open("https://ericvalderas.github.io/nwr/world.html","_self");  };   
