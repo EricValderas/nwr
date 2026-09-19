@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*26);
+          randomScript = Math.floor(Math.random()*27);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -83,6 +83,7 @@ function functionNext(){
           if(randomScript==23){arrayTitle = guerrasocial};
           if(randomScript==24){arrayTitle = txacoli};
           if(randomScript==25){arrayTitle = activemindstt};
+          if(randomScript==26){arrayTitle = electricWar};
           
           
           
@@ -1588,4 +1589,37 @@ const txacoli = [
        
       ] 
       ];
+
+      const electricWar = [
+        [
+         "Electric War - Little Barrie",
+        "Zero Sun - Little Barrie",
+        "Spektato - Little Barrie",
+        "Creaky - Little Barrie",
+        "’Said Soul - Little Barrie",
+        "Sick 8 - Little Barrie",
+        "My Now - Little Barrie",
+        "Count Of Four - Little Barrie",
+        ],[
+         "https://www.dropbox.com/scl/fi/vnulvlptyh2asx65e87jv/01-Little-Barrie-Electric-War.mp3?rlkey=uh4myt0kk7zpmmv3khkug6rkf&st=o1n7x96n&dl=1",
+        "https://www.dropbox.com/scl/fi/aaa4ipswvhjf9qyhbwkik/02-Little-Barrie-Zero-Sun.mp3?rlkey=uo65pzpkjlm8xm5k6xwagcdmd&st=z7167q1s&dl=1",
+        "https://www.dropbox.com/scl/fi/dx2g8sn3c2x3pcbjbed4b/03-Little-Barrie-Spektator.mp3?rlkey=0ijioexin2jrq5lj8x6gmi5i6&st=rc1dlyim&dl=1",
+        "https://www.dropbox.com/scl/fi/b8f619yddzbfwshu5w9d0/04-Little-Barrie-Creaky.mp3?rlkey=i1nbzvitb6xn0uhkgrrtrvypd&st=9283peiu&dl=1",
+        "https://www.dropbox.com/scl/fi/myc1dj8mqd7s275wd1z2e/05-Little-Barrie-Said-Soul.mp3?rlkey=0s5zyckx1fl72lc3xwyxg0mit&st=rm4p60cw&dl=1",
+        "https://www.dropbox.com/scl/fi/vssk4um8ra07izekoxv6z/06-Little-Barrie-Sick-8.mp3?rlkey=41qtx7l8ub5f0soiazgg7kezi&st=9wmz4vs6&dl=1",
+        "https://www.dropbox.com/scl/fi/v8ahenpjgzznkqb6a4prw/07-Little-Barrie-My-Now.mp3?rlkey=a37emts6i6usa29dldo41q9bh&st=vetjp59a&dl=1",
+        "https://www.dropbox.com/scl/fi/9u92zlt6gwkvc2ixuq342/08-Little-Barrie-Count-Of-Four.mp3?rlkey=e3q0myco1kgvjslpzelrk6i5s&st=k2sgfxks&dl=1",
+      ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
+        
+      ];
+
 
