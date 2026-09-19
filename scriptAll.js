@@ -88,6 +88,7 @@ function functionNext(){
           if(randomScript==28){arrayTitle = trashmetal2};
           if(randomScript==29){arrayTitle = yellowgoat};
           if(randomScript==30){arrayTitle = leyendatiempo};
+          if(randomScript==31){arrayTitle = laniñadelapueblaimalways};
           
           
           
@@ -1777,6 +1778,66 @@ const leyendatiempo= [
     ],
 ];
 
+const laniñadelapueblaimalways = [
+        [
+         "Alone with you at the door - La niña de la puebla",
+         "Because i cannot forget you - La niña de la puebla",
+         "Between Brambles and Brambles - La niña de la puebla",
+         "Darkness - La niña de la puebla",
+         "Fate Brought Us Together - La niña de la puebla",
+         "I´m always crying - La niña de la puebla",
+         "If you leave - La niña de la puebla",
+         "I´m always crying - La niña de la puebla",
+         "In the Villages of My Andalusia - La niña de la puebla",
+         "Mountain top - La niña de la puebla",
+         "My pains are very big - La niña de la puebla",
+         "My sister - La niña de la puebla",
+         "The lass - La niña de la puebla",
+         "The love of the Shepherdess - La niña de la puebla",
+         "With the hope lost - La niña de la puebla",
+         
+        
+        ],
+        [
+          "https://www.dropbox.com/scl/fi/oui0426vwevafl1u83sxa/12-Ni-a-de-la-Puebla-Alone-with-You-at-the-Door.mp3?rlkey=pmhs0i0uiwlg035fkg5vxde5l&st=ddam9etd&dl=1",
+          "https://www.dropbox.com/scl/fi/z7hjk7gotjmg2d2wlc47b/04-Ni-a-de-la-Puebla-Because-I-Cannot-Forget-You.mp3?rlkey=zd8cpzp5mvpwb11nx6t0scu2y&st=skutykfn&dl=1",
+          "https://www.dropbox.com/scl/fi/29z4jkn8kqgyqj1ntz5hf/14-Ni-a-de-la-Puebla-Between-Brambles-and-Brambles.mp3?rlkey=p2724zsburgwkpgvwbdl0u4hd&st=onnopolm&dl=1",
+          "https://www.dropbox.com/scl/fi/o5y5b5wrwzk66a1islxj5/01-Ni-a-de-la-Puebla-Darkness.mp3?rlkey=l69rk6bn6axb7whki9xn8m3hq&st=iug93fw8&dl=1",
+          "https://www.dropbox.com/scl/fi/sfmxtwbz38u665kcoejrc/13-Ni-a-de-la-Puebla-Fate-Brought-Us-Together.mp3?rlkey=jrfwr4gjf66lac08mwnblm8d2&st=1n8cunp1&dl=1",
+
+          "https://www.dropbox.com/scl/fi/knsfqobw5887zjnp3jpt6/02-Ni-a-de-la-Puebla-I-m-Always-Crying.mp3?rlkey=7wgibue1wp1zvwmtzpzrcuhbx&st=rfb5vr6c&dl=1",
+          "https://www.dropbox.com/scl/fi/vdkp8dc5rua50yr2q7dft/03-Ni-a-de-la-Puebla-If-You-Leave.mp3?rlkey=zyysj9wpmcjyj186rmssdqu2t&st=cs58e21l&dl=1",
+          "https://www.dropbox.com/scl/fi/n15vl8s9e0k7581f4tj15/09-Ni-a-de-la-Puebla-In-the-Villages-of-My-Andalusia.mp3?rlkey=ddawcwa9m6e36rsad5tvbdv79&st=fosx3zgl&dl=1",
+          "https://www.dropbox.com/scl/fi/yfsx6pfnf3zz0ucecyr9v/07-Ni-a-de-la-Puebla-Mountain-Top.mp3?rlkey=r3odnjnon0qadq7ojtkhyy9re&st=japfrr8k&dl=1",
+          "https://www.dropbox.com/scl/fi/wiwqfqtjb65rmdvh0bh5f/06-Ni-a-de-la-Puebla-My-Pains-Are-Very-Big.mp3?rlkey=hb0w0g5g320eh3yxugn3t2qqo&st=54tluaso&dl=1",
+
+          "https://www.dropbox.com/scl/fi/v427li77hitrc5x5sdcui/05-Ni-a-de-la-Puebla-My-Sister.mp3?rlkey=na7kmduf6ewdnm1wswiuy9m7h&st=1a9cr0cz&dl=1",
+          "https://www.dropbox.com/scl/fi/0uvuxk62u7fifn2y5hj7a/11-Ni-a-de-la-Puebla-The-Lass.mp3?rlkey=1kr9nzab2rlc3d14oqjnl0qum&st=af37f8uj&dl=1",
+          "https://www.dropbox.com/scl/fi/c90r2bd2ozwcwyxiqw3up/10-Ni-a-de-la-Puebla-The-Love-of-the-Shepherdess.mp3?rlkey=0pl32cjpm7s2210li1kl27lqq&st=i0pxsx94&dl=1",
+          "https://www.dropbox.com/scl/fi/doxneqgi1myjvp1i6mf0f/08-Ni-a-de-la-Puebla-With-the-Hope-Lost.mp3?rlkey=oahtsnplybxpso38pqnfezvsv&st=evnwccpi&dl=1",
+,        ],
+        [
+
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        "https://www.dropbox.com/scl/fi/8ns8s5nvwte7knhfvswr3/lani-adelapueblaimalways.jpg?rlkey=nk6avqz21kvvv2uac3p4tb5he&st=py2dic3y&dl=1",
+        
+       
+      ] 
+      ];
 
 
 
