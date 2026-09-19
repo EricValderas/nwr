@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*29);
+          randomScript = Math.floor(Math.random()*31);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -86,6 +86,8 @@ function functionNext(){
           if(randomScript==26){arrayTitle = electricWar};
           if(randomScript==27){arrayTitle = trashmetal1};
           if(randomScript==28){arrayTitle = trashmetal2};
+          if(randomScript==29){arrayTitle = yellowgoat};
+          if(randomScript==30){arrayTitle = leyendatiempo};
           
           
           
@@ -1698,6 +1700,83 @@ const txacoli = [
         
       ]
     ];
+
+const yellowgoat= [
+    [
+        "Ascension / Intro - Joel Grind",
+        "Black order - Joel Grind",
+        "Cross damnation - Joel Grind",
+        "Descension (outro) - Joel Grind",
+        "Foul spirit within - Joel Grind",
+        "Grave encounters - Joel Grind",
+        "Hail to cruelty - Joel Grind",
+        "Hell's Master of Hell - Joel Grind",
+        "The eternal one - Joel Grind",
+        "Vengeance Spell - Joel Grind",
+    ],[
+        "https://www.dropbox.com/scl/fi/2m8c5abaybza5zvhbvan4/01-Joel-Grind-Ascension-Intro.mp3?rlkey=4ddbjbuxnw1032yjj768cbhiv&st=9ufp5xd4&dl=1",
+        "https://www.dropbox.com/scl/fi/yvqmdgip04j6grp6qsgmc/07-Joel-Grind-Black-Order.mp3?rlkey=v0vks1pco13cxv5v5jkq8q3yr&st=vy51k5d3&dl=1",
+        "https://www.dropbox.com/scl/fi/s46bc3mtsmu6wbler5r7j/05-Joel-Grind-Cross-Damnation.mp3?rlkey=4k3bi7focxknfdmpapfcuedgy&st=q64f7idq&dl=1",
+        "https://www.dropbox.com/scl/fi/fof5deflwe23c9gmgl7nw/10-Joel-Grind-Descension-Outro.mp3?rlkey=oyz5ptw9txjvl8x64flw65qvs&st=czbl1y26&dl=1",
+        "https://www.dropbox.com/scl/fi/m8qp3zw8r4q59i0wf904a/04-Joel-Grind-Foul-Spirit-Within.mp3?rlkey=m4q1vrzhlvshpem8aaghaq5lx&st=a5xbpvel&dl=1",
+        "https://www.dropbox.com/scl/fi/t0bqa7oqmwme2qfo4q1rj/06-Joel-Grind-Grave-Encounters.mp3?rlkey=ckar5t55jks315u4lty7yl58b&st=zt806bvu&dl=1",
+        "https://www.dropbox.com/scl/fi/dup15rlatyvb3vvddk9mm/09-Joel-Grind-Hail-to-Cruelty.mp3?rlkey=q3lbe5k823lenov0qm2lkp7x4&st=49s44f28&dl=1",
+        "https://www.dropbox.com/scl/fi/23qneq8ds6419m0uozvuf/02-Joel-Grind-Hell-s-Master-of-Hell.mp3?rlkey=ucvw39k8322w3e1f3wn78x9kn&st=x03y8z7k&dl=1",
+        "https://www.dropbox.com/scl/fi/jlgqt1x5d04x80hxmrqmb/08-Joel-Grind-The-Eternal-One.mp3?rlkey=2a4bk8csevriq4kzqtca8l47p&st=l73f4bvf&dl=1",
+        "https://www.dropbox.com/scl/fi/td9i7pfwdeos9w0xhrfun/03-Joel-Grind-Vengeance-Spell.mp3?rlkey=ff7d88z2634efq35p92mb83c1&st=yralyuxi&dl=1",
+    ],[
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+        "https://www.dropbox.com/scl/fi/8ep002dax01tmfh0bx4uk/yellowgoat.jpg?rlkey=fn2b7i68ksmepylwiylmafs48&st=e0t3grkk&dl=1",
+    ],
+];
+
+const leyendatiempo= [
+    [
+      "Bahia de Cadiz - Camaron",
+      "Homenaje a Federico - Camaron",
+      "La Leyenda del Tiempo - Camaron",
+      "La Tarara - Camaron",
+      "Mi niña se fue a la Mar - Camaron",
+      "Nana del Caballo Grande - Camaron",
+      "Romance del Amargo - Camaron",
+      "Tangos de la Sultana - Camaron",
+      "Viejo Mundo - Camaron",
+      "Volando Voy - Camaron",
+    ],[
+        "https://www.dropbox.com/scl/fi/c9zot9wse7oupufafiwc3/Bahia-De-Cadiz_spotdown.org.mp3?rlkey=r6mpyd0yzybm6jr6uiosazrxh&st=wly3xde4&dl=1",
+        "https://www.dropbox.com/scl/fi/lj84wzkbnu03jxf1wv3r3/Homenaje-A-Federico_spotdown.org.mp3?rlkey=kx8cin6r9qt7x3ikn5nisqht9&st=b6e7oojo&dl=1",
+        "https://www.dropbox.com/scl/fi/ltdaa3vau14vq5w8tefqv/La-Leyenda-Del-Tiempo_spotdown.org.mp3?rlkey=17yv58qohnxenekqpg1fhkg33&st=gupg68r7&dl=1",
+        "https://www.dropbox.com/scl/fi/pc6wa1ec4uhbhi8kanpsz/La-Tarara_spotdown.org.mp3?rlkey=p6fbwkjghuwz1o42ufif6hzkl&st=4fju06oy&dl=1",
+        "https://www.dropbox.com/scl/fi/gzximyurrnpchidggtf3h/Mi-Nina-Se-Fue-A-La-Mar_spotdown.org.mp3?rlkey=qc44y3deehcytbipox046wtco&st=t8wukz7i&dl=1",
+        "https://www.dropbox.com/scl/fi/208f8xee14t1posaczefe/Nana-Del-Caballo-Grande_spotdown.org.mp3?rlkey=a98fdgp5oxmxtdt8sp707d7t7&st=9prrbhk5&dl=1",
+        "https://www.dropbox.com/scl/fi/lzi8jrz8rgd9us1pazwlt/Romance-Del-Amargo_spotdown.org.mp3?rlkey=fqd2dtpfjkjjkxolf150p0xf8&st=bnhofy8n&dl=1",
+        "https://www.dropbox.com/scl/fi/ak9vnfi75y2b71jbgm2uj/Tangos-De-La-Sultana_spotdown.org.mp3?rlkey=ow2ra1pcegwt3npjc41x9kqe9&st=oyepkn4q&dl=1",
+        "https://www.dropbox.com/scl/fi/g46w2x8icwww58z0ar0sw/Volando-Voy_spotdown.org.mp3?rlkey=b4o1axp9dr3e1wk7ijqj1b594&st=nl00u3x1&dl=1",
+        "https://www.dropbox.com/scl/fi/g46w2x8icwww58z0ar0sw/Volando-Voy_spotdown.org.mp3?rlkey=b4o1axp9dr3e1wk7ijqj1b594&st=tg1a8iuo&dl=1",
+    ],[
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        "https://www.dropbox.com/scl/fi/v8w5v2cbhznl4o1lewbdg/leyendatiempo.jpg?rlkey=xl74g42d7cgqzndmgn5z5j990&st=4abaaubw&dl=1",
+        
+
+    ],
+];
+
 
 
 
