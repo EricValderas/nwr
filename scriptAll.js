@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*27);
+          randomScript = Math.floor(Math.random()*29);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -84,6 +84,8 @@ function functionNext(){
           if(randomScript==24){arrayTitle = txacoli};
           if(randomScript==25){arrayTitle = activemindstt};
           if(randomScript==26){arrayTitle = electricWar};
+          if(randomScript==27){arrayTitle = trashmetal1};
+          if(randomScript==28){arrayTitle = trashmetal2};
           
           
           
@@ -1620,6 +1622,82 @@ const txacoli = [
         "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
         "https://www.dropbox.com/scl/fi/tojl4cz4lb1ug45bts3xf/electricwar.jpg?rlkey=sqjjw6j73ih9t0mo7zat7777f&st=84eszkrw&dl=1",
         
-      ];
+      ]
+    ];
+
+ const trashmetal2 = [
+        [
+              "Bastard of Hades - Hellripper",
+              "Anneliese - Hellripper",
+              "Demdike (In League with the Devil) - Hellripper",
+              "Within the Everlasting Hellfire - Hellripper",
+              "From Hell - Hellripper",
+              "Black Invocation - Hellripper",
+              "Conduit Closing - Hellripper",
+              "Coagulating Darkness - Hellripper",
+        ],[
+          "https://www.dropbox.com/scl/fi/zv2nz6geyd15slag7b0qn/01-Hellripper-Bastard-of-Hades.mp3?rlkey=o64tq3dovhbzz6wk1yjeeqfd8&st=pwsxaoze&dl=1",
+        "https://www.dropbox.com/scl/fi/ghr30l6nme8c7s1f5eghm/02-Hellripper-Anneliese.mp3?rlkey=gss0w3m075rov0h76p9ymm4pp&st=op045o1p&dl=1",
+        "https://www.dropbox.com/scl/fi/l0crn7an0w34gn1jiopxp/03-Hellripper-Demdike-In-League-with-the-Devil.mp3?rlkey=bzjnyuntwhartanrvfhz03gpp&st=0rwshgtp&dl=1",
+        "https://www.dropbox.com/scl/fi/1j4dx8p7nwr7ivafcpo9e/04-Hellripper-Within-the-Everlasting-Hellfire.mp3?rlkey=0zhp81dix4l41473881rf44qc&st=howzv5o1&dl=1",
+        "https://www.dropbox.com/scl/fi/6how13zp631a2ybufvv3w/05-Hellripper-From-Hell.mp3?rlkey=ivkr10b0kfqqh842nnaahjd36&st=eqm6lj6e&dl=1",
+        "https://www.dropbox.com/scl/fi/q7zhyu146dzkg5qtdsg92/06-Hellripper-Black-Invocation.mp3?rlkey=ag6sk2j7q6ft1bm35ytm5nyqc&st=zikcr7j1&dl=1",
+        "https://www.dropbox.com/scl/fi/sncduvf5gd91njksnomuv/07-Hellripper-Conduit-Closing.mp3?rlkey=q4fhcj94o3ro0664j11dvy9xy&st=ols80k42&dl=1",
+        "https://www.dropbox.com/scl/fi/iach18ttpdaxy15ddmw8v/08-Hellripper-Coagulating-Darkness.mp3?rlkey=dgdi7ycvrafe26jm9fhflbau7&st=gxkpunus&dl=1",
+      ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        "https://www.dropbox.com/scl/fi/ioaq3c4u1j1xqixxfapcr/coagulating.jpg?rlkey=5z2i80aqehbfyh3pttzg4aoms&st=5qadij6k&dl=1",
+        
+      ]
+    ];
+
+    const trashmetal1 = [
+        [
+      "Hit The Lights - Metallica",
+      "The Four Horsemen - Metallica",
+      "Motorbreath - Metallica",
+      "Jump In The Fire - Metallica",
+      "(Anesthesia) Pulling Teeth - Metallica",
+      "Whiplash - Metallica",
+      "Phantom Lord - Metallica",
+      "No Remorse - Metallica",
+      "Seek & Destroy - Metallica",
+      "Metal Militia - Metallica",
+        ],[
+          "https://www.dropbox.com/scl/fi/kvrjxcwta2llbjny788ma/Hit-The-Lights_spotdown.org.mp3?rlkey=sndxr1duen0s08hqg8j7fxe9x&st=yohjjfgr&dl=1",
+"https://www.dropbox.com/scl/fi/16qnzwpkfj8jwlvq0s6tw/The-Four-Horsemen_spotdown.org.mp3?rlkey=96hsonapvmn7cafjwkonbsm1z&st=jsecso34&dl=1",
+"https://www.dropbox.com/scl/fi/sff0nbcp9e0j0rz14rcfo/Motorbreath_spotdown.org.mp3?rlkey=904zl10q5dbi8w151zn439c5q&st=3kdp59ak&dl=1",
+"https://www.dropbox.com/scl/fi/1ra9fkzysjdakw4pkosbv/Jump-In-The-Fire_spotdown.org.mp3?rlkey=tlaaft3j3z4rphlrj11uxm88k&st=35ri8612&dl=1",
+"https://www.dropbox.com/scl/fi/k27ail8d8fr91ejfpqo7n/Anesthesia-Pulling-Teeth_spotdown.org.mp3?rlkey=j3o0eysi8g7vwgcvgee5scwal&st=jrn06fdr&dl=1",
+"https://www.dropbox.com/scl/fi/uy7od7g1vk4wsj1cyfqt8/Whiplash_spotdown.org.mp3?rlkey=m8u71p4m48kvh5rxw1j0kjks6&st=31zkbvx8&dl=1",
+"https://www.dropbox.com/scl/fi/l26lyb6cqyhid2t3zfz16/Phantom-Lord_spotdown.org.mp3?rlkey=havh7pfuqhag5rl7fof8k0das&st=nbzur19u&dl=1",
+"https://www.dropbox.com/scl/fi/l26lyb6cqyhid2t3zfz16/Phantom-Lord_spotdown.org.mp3?rlkey=havh7pfuqhag5rl7fof8k0das&st=nbzur19u&dl=1",
+"https://www.dropbox.com/scl/fi/gyouq3r2ouwp0jq8vlfwc/Seek-Destroy_spotdown.org.mp3?rlkey=9jbdiyd18rleb4xymcyespq28&st=fnkpymii&dl=1",
+"https://www.dropbox.com/scl/fi/zj31bld5swo2arft4zvxo/Metal-Militia_spotdown.org.mp3?rlkey=4afua07oxwar986gdg15d9k3p&st=4uq5njcr&dl=1",
+      ] 
+      ,[
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        "https://www.dropbox.com/scl/fi/pyo2e0igmjg3x7ppk4aqp/killemall.jpg?rlkey=6th43cqybbidwlqpidsdb8wnz&st=dadg3vlu&dl=1",
+        
+        
+      ]
+    ];
+
 
 
