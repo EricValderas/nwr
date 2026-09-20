@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*34);
+          randomScript = Math.floor(Math.random()*35);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -91,6 +91,7 @@ function functionNext(){
           if(randomScript==31){arrayTitle = laniñadelapueblaimalways};
           if(randomScript==32){arrayTitle = lastkindwords};
           if(randomScript==33){arrayTitle = zaybx};
+          if(randomScript==34){arrayTitle = surfites};
           
           
           
@@ -1979,6 +1980,67 @@ const lastkindwords = [
         "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
         "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
         "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+ 
+        
+      ] 
+      ];
+
+      const surfites = [
+        [
+         "Launch Pad - The Surfites",
+          "Comet´s Tail - The Surfites",
+          "Space Mover - The Surfites",
+          "Moon Buggy - The Surfites",
+          "Little Rocket Mill - The Surfites",
+          "Rainy Days In Space - The Surfites",
+          "Around The Galaxy - The Surfites",
+          "Danger Ahead - The Surfites",
+          "Space Encounter - The Surfites",
+          "Far And Beyond - The Surfites",
+          "Marching Robots - The Surfites",
+          "Mercurian Surf Stomp - The Surfites",
+          "Space Coach - The Surfites",
+          "Moon Made - The Surfites",
+          "Planetary Stroll - The Surfites",
+          "Bonus Track - The Surfites",
+        ],
+        [
+         "https://www.dropbox.com/scl/fi/zfso4gxeinqiit5o3d7am/Launch-Pad_spotdown.org.mp3?rlkey=ruwbt187dip0l01960ogbybfn&st=jph0oili&dl=1",
+      "https://www.dropbox.com/scl/fi/0nd7b8h2r0y2rxczhjcb1/Comet-s-Tail_spotdown.org.mp3?rlkey=3x98o89iiu5n7kxxi5e5zcfkc&st=1xk1dcq4&dl=1",
+      "https://www.dropbox.com/scl/fi/qvrp1dekl6ubxhlca1mqc/Space-Mover_spotdown.org.mp3?rlkey=iwj5a97c6agcsxqsb4id89hri&st=59c7ekbj&dl=1",
+      "https://www.dropbox.com/scl/fi/hjbhgs4nv356mjlgi0cxi/Moon-Buggy_spotdown.org.mp3?rlkey=xqkc2gpl83mxzsi6smpwe5urb&st=84okl2ti&dl=1",
+      "https://www.dropbox.com/scl/fi/72z8y3acr22sycqd2wxvh/Little-Rocket-Mill_spotdown.org.mp3?rlkey=zp57pjlhl7nt14xy0nl2hkw28&st=9v7thxed&dl=1",
+      "https://www.dropbox.com/scl/fi/torylk4kgabynpo4xa79z/Rainy-Days-In-Space_spotdown.org.mp3?rlkey=xa4pjs9bt92v4kdb7m7ff05ak&st=0p71ag4d&dl=1",
+      "https://www.dropbox.com/scl/fi/u9gzb8p01ufevidk0doqe/Around-The-Galaxy_spotdown.org.mp3?rlkey=h4pnx9icilv71r000l7dr8t88&st=w5t1mdzy&dl=1",
+      "https://www.dropbox.com/scl/fi/3lkjamh6h36ix82mv3i0d/Danger-Ahead_spotdown.org.mp3?rlkey=0jh3s7fo7sufob5fl7uzwytug&st=l3cakqk8&dl=1",
+      "https://www.dropbox.com/scl/fi/v084y90mcynthdro63r6g/Space-Encounter_spotdown.org.mp3?rlkey=bydqfq18fvmjn9cva9yw24cqz&st=1yh8kosu&dl=1",
+      "https://www.dropbox.com/scl/fi/dcu10zwi4xxfanhwyq9dk/Far-And-Beyond_spotdown.org.mp3?rlkey=i4uzmytv7801ea2pyzfocsm8d&st=3f10fni4&dl=1",
+      "https://www.dropbox.com/scl/fi/5f831oe3w9oac6sup71k9/Marching-Robots_spotdown.org.mp3?rlkey=inf3ajsvnpos7avv1qq63vcpz&st=8rwngk9q&dl=1",
+      "https://www.dropbox.com/scl/fi/eqgca05o46nrqobecbjny/Mercurian-Surf-Stomp_spotdown.org.mp3?rlkey=n7zuny5wwm40t45tqca0i1kzz&st=tiu61kbv&dl=1",
+      "https://www.dropbox.com/scl/fi/3k1119ul4v6fg7ov7m4c9/Space-Coach_spotdown.org.mp3?rlkey=jyntcix5hc0o2dyhbuui3nb64&st=dvlamn0k&dl=1",
+      "https://www.dropbox.com/scl/fi/y4s90c5y5edsnkbrpk46o/Moon-Made_spotdown.org.mp3?rlkey=spfs299pgb1d3pdtgmazco5i8&st=tgnm4bxl&dl=1",
+      "https://www.dropbox.com/scl/fi/9qykokc696m415w1ks90s/Planetary-Stroll_spotdown.org.mp3?rlkey=ee3aovgtt11z9393bszdltzt7&st=ce27953s&dl=1",
+      "https://www.dropbox.com/scl/fi/uy2exr3cn8c9774bt25jg/Bonus-Track_spotdown.org.mp3?rlkey=dqcyv92nmjy53a9j1u1bxsqui&st=zljcjmj1&dl=1",
+        ],
+        [
+
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+         "https://www.dropbox.com/scl/fi/kyq0s7vp9wsc6xcjnwlgy/surfites-escapades-in-space-LP.jpg?rlkey=u5y4oow6ofk7gc75ni2gnr5jf&st=y9kfvz2o&dl=1",
+   
  
         
       ] 
