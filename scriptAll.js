@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*32);
+          randomScript = Math.floor(Math.random()*33);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -89,6 +89,7 @@ function functionNext(){
           if(randomScript==29){arrayTitle = yellowgoat};
           if(randomScript==30){arrayTitle = leyendatiempo};
           if(randomScript==31){arrayTitle = laniñadelapueblaimalways};
+          if(randomScript==32){arrayTitle = lastkindwords};
           
           
           
@@ -1841,3 +1842,62 @@ const laniñadelapueblaimalways = [
 
 
 
+const lastkindwords = [
+        [
+         "Geechie Wiley - Last Kind Words",
+         "Kid Prince Moore - Church Bells",
+         "Robert Petway - Catfish Blues",
+         "Sister O.M Terell - I'm Going To That City (No Die No More)",
+         "Lottie Kimbrough - Rolling Log",
+
+         "Louis McDaniels & Gid Smith - It's Hard To Believe You Sweet Love",
+         "Lulu Jackson - Careless Love",
+         "Robert Wilkins - It's No Way To Get Along",
+         "It's No Way To Get Along – The Anglin Brothers - Money Cannot Buy Your Soul",
+         "Blind Willie & Kate McTell - Don't Let Nobody Turn You 'Round",
+
+         "Cannon's Jug Stompers - I'm Going To Germany",
+         "Isaiah Nettles - It's Cold In China",
+         "Memphis Minnie & Kansas Joe McCoy - I Called You This Morning",
+         "Edward Clayborn - Death Is Only A Dream",
+        ],
+        [
+         "https://www.dropbox.com/scl/fi/q4s87z4lurn4iox1bk5g2/01-Various-Artists-Geechie-Wiley-Last-Kind-Words.mp3?rlkey=k86qnq7vocfm3yh5t0hqs8rbl&st=o1dpbel9&dl=1",
+         "https://www.dropbox.com/scl/fi/ia10zxmzgj0mr9vk4leny/02-Various-Artists-Kid-Prince-Moore-Church-Bells.mp3?rlkey=yq5xq91o3ez59lta40y9mdiq6&st=ja5x26ng&dl=1",
+         "https://www.dropbox.com/scl/fi/8q1t35ochyt4kvjuanmml/03-Various-Artists-Robert-Petway-Catfish-Blues.mp3?rlkey=ouoed0w4xcjyjbixopvv34hi9&st=ep9oy7g8&dl=1",
+         "https://www.dropbox.com/scl/fi/rym5kby3ppf48wjx38oge/04-Various-Artists-Sister-O.M-Terell-I-m-Going-To-That-City-No-Die-No-More.mp3?rlkey=8h937p7a4cppb508ekwxhmsee&st=ksqrmna0&dl=1",
+         "https://www.dropbox.com/scl/fi/lxa476oceytaqtp6si5kw/05-Various-Artists-Lottie-Kimbrough-Rolling-Log.mp3?rlkey=us04m84pmd2i0r3qc4sj2dj98&st=l574qie6&dl=1",
+
+         "https://www.dropbox.com/scl/fi/8s7iy77jnq4suq6g59bh9/06-Various-Artists-Louis-McDaniels-Gid-Smith-It-s-Hard-To-Believe-You-Sweet-Love.mp3?rlkey=1mf5jjhwkklqasqen33itvg1u&st=26k7cvpr&dl=1",
+         "https://www.dropbox.com/scl/fi/x85fx2ghchsr806boki5q/07-Various-Artists-Lulu-Jackson-Careless-Love.mp3?rlkey=my0bptrnb7bg34afis7ky9frr&st=jhka4nzb&dl=1",
+         "https://www.dropbox.com/scl/fi/lni4pg5mejgngkwnsvwsr/08-Various-Artists-Robert-Wilkins-It-s-No-Way-To-Get-Along.mp3?rlkey=bajb43l1cejc3crrtwcxnle3i&st=6zx5j9nd&dl=1",
+         "https://www.dropbox.com/scl/fi/pmkjcs621wys5q16ke7iq/09-Various-Artists-It-s-No-Way-To-Get-Along_-The-Anglin-Brothers-Money-Cannot-Buy-Your-Soul.mp3?rlkey=k8wec3b81objqqsqq0b7e6q88&st=ig6xoxjg&dl=1",
+         "https://www.dropbox.com/scl/fi/adhbgzsytma9qye56zaer/10-Various-Artists-Blind-Willie-Kate-McTell-Don-t-Let-Nobody-Turn-You-Round.mp3?rlkey=aair3pfv9z0uknk4zp8k41edf&st=2zv3nzha&dl=1",
+         
+         "https://www.dropbox.com/scl/fi/sh7v8xuw38rsdgvbdxs8r/11-Various-Artists-Cannon-s-Jug-Stompers-I-m-Going-To-Germany.mp3?rlkey=13uqzsh0doloyaszdxvwakmw5&st=dl6gt3lj&dl=1",
+         "https://www.dropbox.com/scl/fi/exvltue8i309b984jtaqh/12-Various-Artists-Isaiah-Nettles-It-s-Cold-In-China.mp3?rlkey=ytohs74h4za55uu2cutrwkyu7&st=nh5613a4&dl=1",
+         "https://www.dropbox.com/scl/fi/hmcsthso4c9j81xeeticu/13-Various-Artists-Memphis-Minnie-Kansas-Joe-McCoy-I-Called-You-This-Morning.mp3?rlkey=krw7phof1ukcsn3x20dwwqg27&st=qx0c5c8h&dl=1",
+         "https://www.dropbox.com/scl/fi/psu0av90wgx3hzgto050i/14-Various-Artists-Edward-Clayborn-Death-Is-Only-A-Dream.mp3?rlkey=0xpgozg50teljr6s0sotzn0nb&st=yxhd8dgx&dl=1",
+        ],
+        [
+
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        "https://www.dropbox.com/scl/fi/yvfqn0zgms91hkpt7ryg6/lastkindwords.jpg?rlkey=4wref5buwm71qh1jgfc5xwuk4&st=fcsrflpj&dl=1",
+        
+      ] 
+      ];
