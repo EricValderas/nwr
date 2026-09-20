@@ -55,7 +55,7 @@ function functionNext(){
 
    function BluesFunction(){
   
-          randomScript = Math.floor(Math.random()*33);
+          randomScript = Math.floor(Math.random()*34);
 
           if(randomScript==0){arrayTitle = bobandlollipops};
           if(randomScript==1){arrayTitle=jlhookerwhiskey}
@@ -90,6 +90,7 @@ function functionNext(){
           if(randomScript==30){arrayTitle = leyendatiempo};
           if(randomScript==31){arrayTitle = laniñadelapueblaimalways};
           if(randomScript==32){arrayTitle = lastkindwords};
+          if(randomScript==33){arrayTitle = zaybx};
           
           
           
@@ -1901,3 +1902,85 @@ const lastkindwords = [
         
       ] 
       ];
+
+      const zaybx = [
+        [
+         "Los A-tunes - Atraco a pez espada",
+          "Blackball Bandits - Night Of The Vampire",
+          "Los Tocadiscos - La cosa",
+          "Johnny & the Waves - Battlescar",
+          "I Fat Tones - La Sorella Di Christine",
+
+          "Gein and the Graverobbers - Spectre Stomp",
+          "LHD - Black Mask",
+          "Los Surfistas Basura - Fin de la historia",
+          "Los Banditos - Los Banditos",
+          "Perro Agradecido - Cum Ea Ita Sint",
+
+          "Pelo Mono - Sonido Amazonico",
+          "Robert Johnson and Punchdrunks - Delirium Bullonate",
+          "The Obsidians - Notre Histoire",
+          "Toro Jones - Night Of The Fly",
+          "Urban Zotel & Vid Jamnik - Summer Getaway",
+
+          "Thálasses - ¿Quien Sera?",
+          "The Surf Raiders - Rampage",
+          "The Spiratones - Coach Surfer (Live)",
+          "Die Zorros - Der Lachende Sarg",
+          "Bronco Jedson - One Two Three Four",
+        ],
+        [
+         "https://www.dropbox.com/scl/fi/892trqyzqcptzpibil4qj/01-Los-A-tunes-Atraco-a-pez-espada.mp3?rlkey=qv0luztb8kivngxs9t09kfvtj&st=48e83dk5&dl=1",
+      "https://www.dropbox.com/scl/fi/4wwx9ekcbpbos7lmd2zmk/02-Blackball-Bandits-Night-Of-The-Vampire.mp3?rlkey=cwzwm2a0eb9ui009m7zxpivyv&st=pgaylkw5&dl=1",
+      "https://www.dropbox.com/scl/fi/dzq65xd0hhi1qy3vdkjja/03-Los-Tocadiscos-La-cosa.mp3?rlkey=odmuagu8acle94sx25lrohu79&st=pa9ttqwy&dl=1",
+      "https://www.dropbox.com/scl/fi/zwnf9k7lq0a47avg8am81/04-Johnny-the-Waves-Battlescar.mp3?rlkey=t69hhy23ge5mdsg1buks7dpyb&st=emfjd4cs&dl=1",
+      "https://www.dropbox.com/scl/fi/0h0wnsl6ilq7jlo3ynqrj/06-I-Fat-Tones-La-Sorella-Di-Christine.mp3?rlkey=ilm16j6akpb7vhqvtn58ivvmm&st=r8ft7ia0&dl=1",
+
+      "https://www.dropbox.com/scl/fi/zqjj6ybutu5pxb92v5z16/05-Gein-and-the-Graverobbers-Spectre-Stomp.mp3?rlkey=dnhp6pdem61wsaa2vpnux30wu&st=0szjtnn4&dl=1",
+      "https://www.dropbox.com/scl/fi/1l36myjprjt8axyovhcpp/07-LHD-Black-Mask.mp3?rlkey=brxdvb7o56wutbq7l46fc2dd1&st=pm41z77v&dl=1",
+      "https://www.dropbox.com/scl/fi/clj6yajzalufm0mdhuc35/08-Los-Surfistas-Basura-Fin-de-la-historia.mp3?rlkey=ayvdk3gtoo2yivoxgbwozxwla&st=waqinuyg&dl=1",
+      "https://www.dropbox.com/scl/fi/bkjxxijc4yeclusltar7g/09-Los-Banditos-Los-Banditos.mp3?rlkey=tbzqix6yxwzts2lsa5mchvpwp&st=6zw3d6ju&dl=1",
+      "https://www.dropbox.com/scl/fi/4w2p8uh4ihc2s6hrz375f/10-Perro-Agradecido-Cum-Ea-Ita-Sint.mp3?rlkey=achrtqso2vydjd6uqmkq983h1&st=b0lros6r&dl=1",
+
+      "https://www.dropbox.com/scl/fi/jgxpv7jgkl5nyrkrc7kh6/11-Pelo-Mono-Sonido-Amazonico.mp3?rlkey=x1lt9vt4jd1ek031hq5vgfg27&st=5z3ezyo6&dl=1",
+      "https://www.dropbox.com/scl/fi/rjn7w7q1rttfvojza1zvt/12-Robert-Johnson-and-Punchdrunks-Delirium-Bullonate.mp3?rlkey=4q9vnb6os3fl5u281ld8k2yca&st=6b5mf7jr&dl=1",
+      "https://www.dropbox.com/scl/fi/4w2p8uh4ihc2s6hrz375f/10-Perro-Agradecido-Cum-Ea-Ita-Sint.mp3?rlkey=achrtqso2vydjd6uqmkq983h1&st=rgpj47l5&dl=1",
+      "https://www.dropbox.com/scl/fi/h8jkgo7lsa8an2h8g0354/14-Toro-Jones-Night-Of-The-Fly.mp3?rlkey=fs4didp34i2vg4zzkkxuw6cdo&st=ict7lb2c&dl=1",
+      "https://www.dropbox.com/scl/fi/mhklhkf7caw74h79b9t2i/15-Urban-Zotel-Vid-Jamnik-Summer-Getaway.mp3?rlkey=wzsqr1suxdby96cinb5waesgd&st=pwpiys0u&dl=1",
+
+      "https://www.dropbox.com/scl/fi/mum7bmzzjcvdphu57lsnh/16-Th-lasses-Quien-Sera_.mp3?rlkey=8pvxbtu8c4ov6jfgd4mc4aoog&st=alxsdfcr&dl=1",
+      "https://www.dropbox.com/scl/fi/coxw1xhf7255a06h15uz5/17-The-Surf-Raiders-Rampage.mp3?rlkey=8r59rceaf92ug56p1ibc4azsh&st=8wtegoy0&dl=1",
+      "https://www.dropbox.com/scl/fi/j7hhwznv5aytdf1cwhlx9/18-The-Spiratones-Coach-Surfer-Live.mp3?rlkey=urdjivcld66jsmoluizm56uuz&st=7arskff7&dl=1",
+      "https://www.dropbox.com/scl/fi/h365wfw0qk45adb3o62p6/19-Die-Zorros-Der-Lachende-Sarg.mp3?rlkey=4p2s972khlqn4gbzin74fsoi3&st=lgplyple&dl=1",
+      "https://www.dropbox.com/scl/fi/2iytfby7568u7marwg5ox/20-Bronco-Jedson-One-Two-Three-Four.mp3?rlkey=4wc98pfsf8ay4kflxnrzhap3q&st=5risa0y8&dl=1",
+        ],
+        [
+
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+    
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+    
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+        "https://www.dropbox.com/scl/fi/zqu4tixprhj8jyppmvtoy/zaybx.jpg?rlkey=fagp11q07i53y4r2iroez3rgn&st=f8gg8xct&dl=1",
+ 
+        
+      ] 
+      ];
+
