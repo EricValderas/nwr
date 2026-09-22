@@ -36,15 +36,15 @@ export const postpunkHour = [
 
         //Whole Mistery - Pol Pot
 
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20This%20area%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20What%20you%20are%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20Mist%20of%20passion%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20The%20one%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20Whole%20mistery%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20We%20need%20lasers%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20Riding%20the%20storm%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20Time%20must%20die%20-%20Pol%20Pot.mp3",
-        "https://nervouswreckradio.online/P/Whole%20Mistery%20-%20PolPot/BandCampDownloader.app%20-%20Eisbar%20-%20Pol%20Pot.mp3",
+        "https://www.dropbox.com/scl/fi/wbxc2t1p32xllwpfpekjp/01-Pol-Pot-This-area.mp3?rlkey=zxuvka8sj41b3v8mklapc9vv0&st=u1d9ehlx&dl=1",
+        "https://www.dropbox.com/scl/fi/tv0gd1hzizztd0yqf4rz1/02-Pol-Pot-What-you-are.mp3?rlkey=ulo4afz2xtmkxh9hwqr8pvpd7&st=zek249gu&dl=1",
+        "https://www.dropbox.com/scl/fi/3rcoye67d509lm17nre4t/03-Pol-Pot-Mist-of-passion.mp3?rlkey=d2ni3gsx9mt2v2o9du80m7pg1&st=ywembue8&dl=1",
+        "https://www.dropbox.com/scl/fi/38u16ysniy56wms4sdtxw/04-Pol-Pot-The-one.mp3?rlkey=54volm5ndx9xaupyv7pxx96hi&st=7028oqec&dl=1",
+        "https://www.dropbox.com/scl/fi/1f7koq95e1xzgpuxme02z/05-Pol-Pot-Whole-mistery.mp3?rlkey=mcr2km6btojymvdbj757gbd6b&st=odz15zbp&dl=1",
+        "https://www.dropbox.com/scl/fi/qlbwqw52nbwd806vxizdf/06-Pol-Pot-We-need-lasers.mp3?rlkey=2y3fy2w2w584zs45snny0c11k&st=e15dy2nz&dl=1",
+        "https://www.dropbox.com/scl/fi/lekmj3nni0nmgtxrd3z49/07-Pol-Pot-Riding-the-storm.mp3?rlkey=5ui5i14ok1vvh32wno9obpzrn&st=7bff4yts&dl=1",
+        "https://www.dropbox.com/scl/fi/114i9j6geihke9e8nx6n7/08-Pol-Pot-Time-must-die.mp3?rlkey=3ap60xotninlxgk47qg3rbx2p&st=vse7e120&dl=1",
+        "https://www.dropbox.com/scl/fi/624k153q9epwpsn9hvfzn/09-Pol-Pot-Eisbar.mp3?rlkey=qcrdotg21fyn299df27jm7gpn&st=t0tgqomr&dl=1",
       ] 
       ,[
    
@@ -60,7 +60,7 @@ export const postpunkHour = [
         "https://nervouswreckradio.online/Img/unhombresolodecimavictima.jpg",
         "https://nervouswreckradio.online/Img/unhombresolodecimavictima.jpg",
 
-        "https://nervouswreckradio.online/Img/polpotwhole.jpg",
+        "https://www.dropbox.com/scl/fi/0wj8kyo00tavp7srb3k9q/polpotwhole.jpg?rlkey=k2g95woghtmkdiyux5jlq75iq&st=kr70a10q&dl=1",
         "https://nervouswreckradio.online/Img/polpotwhole.jpg",
         "https://nervouswreckradio.online/Img/polpotwhole.jpg",
         "https://nervouswreckradio.online/Img/polpotwhole.jpg",
